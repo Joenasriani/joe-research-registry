@@ -3,7 +3,7 @@
   --ink: #111111;
   --muted: #5b5a55;
   --rule: rgba(17,17,17,.24);
-  --accent: #b62e22;
+  --accent: #9f2d22;
   --max: 1440px;
   --pad: clamp(20px,4vw,64px);
 }
@@ -17,10 +17,12 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.45;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
 }
 
 a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 .masthead {
   min-height: 72px;
@@ -29,7 +31,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 28px;
 }
 
 .name,
@@ -39,6 +41,9 @@ a { color: inherit; }
 .subject,
 .read,
 .sectionhead span,
+.topnav,
+.breadcrumb,
+.searchcontext,
 footer {
   font-family: "Courier New", Courier, monospace;
   text-transform: uppercase;
@@ -49,9 +54,24 @@ footer {
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .edition { font-size: 10px; color: var(--muted); }
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(14px,2.4vw,34px);
+  font-size: 10px;
+}
+
+.topnav a,
+.footerlinks a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
 
 main,
 footer {
@@ -78,7 +98,7 @@ footer {
 
 h1 {
   margin: 0;
-  max-width: 980px;
+  max-width: 1050px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(54px,8.4vw,132px);
   line-height: .9;
@@ -89,13 +109,14 @@ h1 {
 .intro {
   align-self: end;
   margin: 0;
-  max-width: 430px;
+  max-width: 450px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(18px,1.65vw,25px);
-  line-height: 1.35;
+  line-height: 1.38;
 }
 
 .registry,
+.paths,
 .rule {
   padding: 0 var(--pad);
   border-bottom: 1px solid var(--ink);
@@ -140,10 +161,7 @@ h1 {
 }
 
 .subject,
-.read {
-  font-size: 10px;
-}
-
+.read { font-size: 10px; }
 .subject { margin: 0 0 38px; color: var(--accent); }
 
 .entry h3 {
@@ -159,14 +177,14 @@ h1 {
 
 .question {
   margin: 0;
-  max-width: 860px;
+  max-width: 880px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(22px,2.4vw,34px);
   line-height: 1.24;
 }
 
 .position {
-  max-width: 730px;
+  max-width: 760px;
   margin: 38px 0 42px;
   color: var(--muted);
   font-size: 16px;
@@ -177,6 +195,42 @@ h1 {
   padding-bottom: 5px;
   border-bottom: 1px solid currentColor;
   text-decoration: none;
+}
+
+.pathgrid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.pathgrid article {
+  min-height: 230px;
+  padding: 34px 40px 42px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.pathgrid article:nth-child(odd) {
+  border-right: 1px solid var(--rule);
+  padding-right: clamp(28px,5vw,70px);
+}
+
+.pathgrid article:nth-child(even) {
+  padding-left: clamp(28px,5vw,70px);
+}
+
+.pathgrid article:nth-last-child(-n+2) { border-bottom: 0; }
+
+.pathgrid h3 {
+  margin: 0 0 18px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(26px,3vw,42px);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.pathgrid p {
+  margin: 0;
+  max-width: 590px;
+  color: var(--muted);
 }
 
 .rule {
@@ -204,8 +258,20 @@ h1 {
 .note {
   width: min(100%, 1180px);
   margin: 0 auto;
-  padding: clamp(52px,8vw,110px) var(--pad) 110px;
+  padding: clamp(30px,5vw,64px) var(--pad) 110px;
 }
+
+.compactnote { max-width: 1040px; }
+
+.breadcrumb {
+  display: flex;
+  gap: 10px;
+  padding: 0 0 34px;
+  font-size: 9px;
+  color: var(--muted);
+}
+
+.breadcrumb a { text-underline-offset: 3px; }
 
 .notehead {
   border-bottom: 1px solid var(--ink);
@@ -230,6 +296,14 @@ h1 {
   line-height: 1.25;
 }
 
+.searchcontext {
+  max-width: 900px;
+  margin: 30px 0 0;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.7;
+}
+
 .note section {
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -248,19 +322,41 @@ h1 {
 
 .note section .copy {
   padding: 36px 0 52px clamp(28px,5vw,70px);
-  max-width: 820px;
+  max-width: 850px;
 }
 
 .copy p:first-child { margin-top: 0; }
 .copy p:last-child { margin-bottom: 0; }
 .copy p { font-size: 17px; }
-.copy .large { font-family: Georgia, "Times New Roman", serif; font-size: clamp(24px,2.5vw,35px); line-height: 1.28; }
+.copy .large {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(24px,2.5vw,35px);
+  line-height: 1.28;
+}
 .copy ol { padding-left: 22px; }
 .copy li { margin: 0 0 14px; }
 .copy table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-.copy th,.copy td { text-align: left; vertical-align: top; padding: 14px 12px 14px 0; border-top: 1px solid var(--rule); font-size: 14px; }
+.copy th,
+.copy td {
+  text-align: left;
+  vertical-align: top;
+  padding: 14px 12px 14px 0;
+  border-top: 1px solid var(--rule);
+  font-size: 14px;
+}
 .copy th { width: 31%; font-weight: 700; }
-.copy a { text-underline-offset: 3px; }
+.copy a { text-underline-offset: 3px; overflow-wrap: anywhere; }
+
+.qa h3 {
+  margin: 38px 0 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(23px,2.2vw,31px);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.qa h3:first-child { margin-top: 0; }
+.sources p { margin-bottom: 24px; }
 
 footer {
   min-height: 86px;
@@ -272,17 +368,31 @@ footer {
   font-size: 10px;
 }
 
+.footerlinks { text-align: right; }
+
 @media (max-width: 760px) {
+  .masthead { align-items: flex-start; flex-direction: column; padding-top: 20px; padding-bottom: 18px; }
+  .topnav { flex-wrap: wrap; justify-content: flex-start; }
   .opening { min-height: 64vh; grid-template-columns: 1fr; }
   .intro { max-width: 620px; }
   .entry { grid-template-columns: 1fr; }
   .entrymeta { border-right: 0; border-bottom: 1px solid var(--rule); padding-right: 0; flex-direction: row; flex-wrap: wrap; }
   .entrybody { padding-left: 0; }
+  .pathgrid { grid-template-columns: 1fr; }
+  .pathgrid article,
+  .pathgrid article:nth-child(odd),
+  .pathgrid article:nth-child(even),
+  .pathgrid article:nth-last-child(-n+2) { padding: 30px 0; border-right: 0; border-bottom: 1px solid var(--rule); }
+  .pathgrid article:last-child { border-bottom: 0; }
   .rule { grid-template-columns: 1fr; }
   .rule .sectionhead { border-right: 0; border-bottom: 1px solid var(--rule); padding-right: 0; }
   .rule > p { padding-left: 0; }
   .note section { grid-template-columns: 1fr; }
   .note section h2 { border-right: 0; border-bottom: 1px solid var(--rule); padding-right: 0; }
   .note section .copy { padding-left: 0; }
+  .copy th,
+  .copy td { display: block; width: 100%; }
+  .copy td { border-top: 0; padding-top: 0; padding-bottom: 22px; }
   footer { align-items: flex-start; flex-direction: column; justify-content: center; }
+  .footerlinks { text-align: left; }
 }
