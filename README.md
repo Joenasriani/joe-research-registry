@@ -1,15 +1,14 @@
-# Joe Research Registry
+# Research Notes
 
-Research questions recorded by Joe Nasr with their scope, source trail, closest prior literature, and revision history.
+Questions are published with their scope, source trail, closest prior literature, and revision history.
 
-The registry does not treat a new phrase as proof of a new concept. Each entry separates what existing research already covers from the specific question or framing being recorded here.
+The work comes first. Authorship remains available as provenance, not as the headline. A new phrase is not treated as proof of a new concept. Each note separates what existing research already covers from the specific question or framing being recorded.
 
 ## Research Note 001
 
 ### Pre Institutional Human Order
 
 **Status:** Working research question  
-**Author:** Joe Nasr  
 **First recorded:** 10 September 2026
 
 **Question**
@@ -32,10 +31,12 @@ https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-
 
 https://joenasriani.github.io/joe-research-registry/method.html
 
-**Author record**
+**Authorship record**
 
 https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html
 
 ## Publication rule
 
-Claims of novelty require more than an unsuccessful phrase search. A note must identify prior terminology, adjacent theory, empirical precedent, and unresolved overlap before it describes any part of the framing as distinct.
+Let the reader encounter the question before the author. If the work earns further interest, the source and authorship record remain available.
+
+Claims of novelty require more than an unsuccessful phrase search. A note must identify prior terminology, adjacent theory, empirical precedent, and unresolved overlap before any part of the framing is described as distinct.
