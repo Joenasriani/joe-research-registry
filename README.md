@@ -1,29 +1,41 @@
 # Joe Research Registry
 
-Public record of research questions developed by Joe Nasr.
+Research questions recorded by Joe Nasr with their scope, source trail, closest prior literature, and revision history.
 
-Each entry states the question, its scope, the closest prior literature, and what is actually being proposed. Git history preserves revisions. No entry is labelled original unless that claim can be supported.
+The registry does not treat a new phrase as proof of a new concept. Each entry separates what existing research already covers from the specific question or framing being recorded here.
 
-## Entry 001
+## Research Note 001
 
 ### Pre Institutional Human Order
 
-Status: Working research question  
-Author: Joe Nasr  
-First recorded: 10 September 2026
+**Status:** Working research question  
+**Author:** Joe Nasr  
+**First recorded:** 10 September 2026
 
 **Question**
 
 If government and every other deliberately designed institution of collective order are removed from the model, what forms of human coordination would still arise from interaction itself?
 
-**What is being proposed**
+**Specific move being tested**
 
-The distinctive move is a subtraction test. It removes not only government, but the broader layer of deliberately constructed institutional order, then asks what remains and what would form again.
+Remove the broader layer of deliberately constructed institutional order, not government alone, then ask what coordination remains and what forms first.
 
-**What is not being claimed**
+**Closest established research**
 
-This entry does not claim to invent spontaneous order, stateless society research, self governance, customary organization, informal institutions, or decentralized coordination. Those subjects already have established literatures.
+Spontaneous order, order without government, stateless societies, self governance, informal institutions, political anthropology, institutional economics, and self organization.
 
-**Full note**
+**Research note**
 
-[Research Note 001: Pre Institutional Human Order](notes/001-pre-institutional-human-order.html)
+https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html
+
+**Method**
+
+https://joenasriani.github.io/joe-research-registry/method.html
+
+**Author record**
+
+https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html
+
+## Publication rule
+
+Claims of novelty require more than an unsuccessful phrase search. A note must identify prior terminology, adjacent theory, empirical precedent, and unresolved overlap before it describes any part of the framing as distinct.
