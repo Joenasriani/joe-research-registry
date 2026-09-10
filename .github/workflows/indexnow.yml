@@ -1,0 +1,30 @@
+name: Submit registry URLs to IndexNow
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit canonical URLs
+        shell: bash
+        run: |
+          curl --fail --silent --show-error \
+            --request POST \
+            --header "Content-Type: application/json; charset=utf-8" \
+            --data '{
+              "host": "joenasriani.github.io",
+              "key": "1a1ec05d1ffc28cb56db4d15c836e31f",
+              "keyLocation": "https://joenasriani.github.io/joe-research-registry/1a1ec05d1ffc28cb56db4d15c836e31f.txt",
+              "urlList": [
+                "https://joenasriani.github.io/joe-research-registry/",
+                "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html",
+                "https://joenasriani.github.io/joe-research-registry/method.html",
+                "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"
+              ]
+            }' \
+            "https://api.indexnow.org/IndexNow"
