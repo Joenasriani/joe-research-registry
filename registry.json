@@ -1,7 +1,11 @@
 {
   "registry": "Joe Research Registry",
-  "author": "Joe Nasr",
+  "author": {
+    "name": "Joe Nasr",
+    "url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"
+  },
   "updated": "2026-09-10",
+  "method": "https://joenasriani.github.io/joe-research-registry/method.html",
   "entries": [
     {
       "id": "001",
@@ -9,16 +13,25 @@
       "status": "working research question",
       "first_recorded": "2026-09-10",
       "question": "If government and every other deliberately designed institution of collective order are removed from the model, what forms of human coordination would still arise from interaction itself?",
-      "distinctive_move": "Remove the broader layer of deliberately constructed institutional order before asking what remains and what would form again.",
-      "related_research": [
+      "distinctive_move": "Remove the broader layer of deliberately constructed institutional order before asking what remains and what forms first.",
+      "search_context": [
+        "order without government",
+        "society without government",
+        "social order without central authority",
         "spontaneous order",
         "stateless societies",
+        "emergent social coordination",
         "self governance",
-        "customary organization",
         "informal institutions",
         "political anthropology",
-        "institutional economics",
         "self organization"
+      ],
+      "direct_questions": [
+        "Can social order exist without government?",
+        "What creates social order without central authority?",
+        "Is a stateless society the same as an institutionless society?",
+        "What does Pre Institutional Human Order mean?",
+        "How is this different from spontaneous order?"
       ],
       "url": "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html"
     }
