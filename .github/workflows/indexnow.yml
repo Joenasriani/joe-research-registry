@@ -27,4 +27,4 @@ jobs:
                 "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"
               ]
             }' \
-            "https://api.indexnow.org/IndexNow"
+            "https://api.indexnow.org/indexnow"
