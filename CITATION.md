@@ -4,7 +4,7 @@ Use the specific research note rather than the repository name alone.
 
 ## Research Note 001
 
-Joe Nasr. “Pre Institutional Human Order.” Joe Research Registry, Research Note 001, 10 September 2026.
+Joe Nasr. “Pre Institutional Human Order.” Research Notes, Research Note 001, 10 September 2026.
 
 https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html
 
