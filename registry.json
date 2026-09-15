@@ -13,7 +13,7 @@
       "id": "quest-research",
       "title": "Joe Nasr Quest Research",
       "url": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-      "description": "Technical research spanning Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, wearable sensing, human-computer interaction and scientific visualization.",
+      "description": "Technical research spanning Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, wearable sensing, VR neuroscience, human-computer interaction and scientific visualization.",
       "audiences": [
         "Meta Quest engineers",
         "XR developers",
@@ -27,6 +27,7 @@
         "HCI researchers",
         "simulation developers",
         "robotics and sensing experimenters",
+        "VR researchers",
         "technical educators",
         "prototypers",
         "VR enthusiasts"
@@ -42,6 +43,7 @@
         "thermal imaging",
         "OpenXR simulation",
         "wearable computing",
+        "VR neuroscience",
         "scientific visualization",
         "technical prototyping"
       ],
@@ -51,23 +53,8 @@
           "title": "Quest-XSA: Thermal & UV Sensory Augmentation for Meta Quest",
           "status": "technical research and design study",
           "primary_field": "mixed reality engineering / sensory augmentation",
-          "specialisms": [
-            "Meta Quest development",
-            "external sensor integration",
-            "thermal imaging",
-            "ultraviolet imaging",
-            "spatial computing",
-            "multimodal XR",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "Meta Quest thermal camera integration",
-            "Meta Quest UV camera integration",
-            "thermal imaging in mixed reality",
-            "sensory augmentation XR",
-            "external USB sensors on Meta Quest",
-            "mixed-reality sensor overlays"
-          ],
+          "specialisms": ["Meta Quest development","external sensor integration","thermal imaging","ultraviolet imaging","spatial computing","multimodal XR","human-computer interaction"],
+          "field_terms": ["Meta Quest thermal camera integration","Meta Quest UV camera integration","thermal imaging in mixed reality","sensory augmentation XR","external USB sensors on Meta Quest","mixed-reality sensor overlays"],
           "research_url": "https://joenasriani.github.io/quest-xsa/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-xsa/",
           "repository": "https://github.com/Joenasriani/quest-xsa"
@@ -77,23 +64,8 @@
           "title": "Quest-MFTS: Multi-Function Tactical Simulation System for Meta Quest",
           "status": "systems concept and feasibility study",
           "primary_field": "XR simulation systems / multimodal human-machine interfaces",
-          "specialisms": [
-            "Meta Quest simulation engineering",
-            "OpenXR",
-            "gaze interaction",
-            "speech interfaces",
-            "haptics",
-            "HOTAS integration",
-            "mixed-reality cockpit interfaces"
-          ],
-          "field_terms": [
-            "Meta Quest simulation engineering",
-            "OpenXR simulation interface",
-            "multimodal VR cockpit",
-            "gaze voice haptics integration",
-            "HOTAS VR integration",
-            "immersive human-machine interface"
-          ],
+          "specialisms": ["Meta Quest simulation engineering","OpenXR","gaze interaction","speech interfaces","haptics","HOTAS integration","mixed-reality cockpit interfaces"],
+          "field_terms": ["Meta Quest simulation engineering","OpenXR simulation interface","multimodal VR cockpit","gaze voice haptics integration","HOTAS VR integration","immersive human-machine interface"],
           "research_url": "https://joenasriani.github.io/quest-mfts/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-mfts/",
           "repository": "https://github.com/Joenasriani/quest-mfts"
@@ -103,23 +75,8 @@
           "title": "Quest-4D: Simulating Hyperspace — 4D Perception in VR",
           "status": "interactive research explainer and visualization study",
           "primary_field": "scientific visualization / interactive mathematics / spatial reasoning",
-          "specialisms": [
-            "four-dimensional geometry",
-            "tesseract visualization",
-            "higher-dimensional projection",
-            "VR and XR education",
-            "immersive learning",
-            "visual reasoning",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "4D tesseract visualization",
-            "four-dimensional geometry interactive visualization",
-            "higher-dimensional projection",
-            "VR spatial reasoning",
-            "immersive mathematics education",
-            "4D rotation visualization"
-          ],
+          "specialisms": ["four-dimensional geometry","tesseract visualization","higher-dimensional projection","VR and XR education","immersive learning","visual reasoning","human-computer interaction"],
+          "field_terms": ["4D tesseract visualization","four-dimensional geometry interactive visualization","higher-dimensional projection","VR spatial reasoning","immersive mathematics education","4D rotation visualization"],
           "research_url": "https://joenasriani.github.io/quest-4d/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-4d/",
           "repository": "https://github.com/Joenasriani/quest-4d"
@@ -129,27 +86,22 @@
           "title": "Project EagleEye: Low-Cost Mixed-Reality Situational Awareness Research",
           "status": "technical research and experimental systems study",
           "primary_field": "mixed-reality systems integration / wearable spatial computing",
-          "specialisms": [
-            "Meta Quest engineering",
-            "thermal imaging",
-            "LoRa",
-            "Meshtastic",
-            "wearable sensing",
-            "gaze interaction",
-            "multimodal interfaces",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "Meta Quest thermal imaging",
-            "mixed-reality thermal camera",
-            "Meta Quest LoRa integration",
-            "Meshtastic mixed reality",
-            "wearable spatial computing",
-            "gaze-driven XR interface"
-          ],
+          "specialisms": ["Meta Quest engineering","thermal imaging","LoRa","Meshtastic","wearable sensing","gaze interaction","multimodal interfaces","human-computer interaction"],
+          "field_terms": ["Meta Quest thermal imaging","mixed-reality thermal camera","Meta Quest LoRa integration","Meshtastic mixed reality","wearable spatial computing","gaze-driven XR interface"],
           "research_url": "https://joenasriani.github.io/quest-eagleeye-project/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-eagleeye-project/",
           "repository": "https://github.com/Joenasriani/quest-eagleeye-project"
+        },
+        {
+          "id": "vr-and-the-brain",
+          "title": "VR/AR Effects on the Human Brain — Neuroscience Evidence Review",
+          "status": "independent narrative evidence review",
+          "primary_field": "VR/AR neuroscience / human-computer interaction",
+          "specialisms": ["virtual reality and brain health","neuroplasticity","cognition","presence","cybersickness","neurorehabilitation","immersive technology safety"],
+          "field_terms": ["virtual reality effects on the brain","VR neuroscience","VR brain health","virtual reality neuroplasticity","VR cognitive effects","VR neurorehabilitation","cybersickness brain effects","immersive technology neuroscience"],
+          "research_url": "https://joenasriani.github.io/vr-and-the-brain/",
+          "interactive_url": null,
+          "repository": "https://github.com/Joenasriani/vr-and-the-brain"
         }
       ]
     }
@@ -162,25 +114,8 @@
       "first_recorded": "2026-09-10",
       "question": "If government and every other deliberately designed institution of collective order are removed from the model, what forms of human coordination would still arise from interaction itself?",
       "distinctive_move": "Remove the broader layer of deliberately constructed institutional order before asking what remains and what forms first.",
-      "search_context": [
-        "order without government",
-        "society without government",
-        "social order without central authority",
-        "spontaneous order",
-        "stateless societies",
-        "emergent social coordination",
-        "self governance",
-        "informal institutions",
-        "political anthropology",
-        "self organization"
-      ],
-      "direct_questions": [
-        "Can social order exist without government?",
-        "What creates social order without central authority?",
-        "Is a stateless society the same as an institutionless society?",
-        "What does Pre Institutional Human Order mean?",
-        "How is this different from spontaneous order?"
-      ],
+      "search_context": ["order without government","society without government","social order without central authority","spontaneous order","stateless societies","emergent social coordination","self governance","informal institutions","political anthropology","self organization"],
+      "direct_questions": ["Can social order exist without government?","What creates social order without central authority?","Is a stateless society the same as an institutionless society?","What does Pre Institutional Human Order mean?","How is this different from spontaneous order?"],
       "url": "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html"
     }
   ]
