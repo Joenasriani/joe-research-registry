@@ -1,26 +1,27 @@
 # Research Notes
 
-Questions are published with their scope, source trail, closest prior literature, and revision history.
+Questions are published with scope, source trail, closest prior literature, evidence boundaries, and revision history.
 
 The work comes first. Authorship remains available as provenance, not as the headline. A new phrase is not treated as proof of a new concept. Each note separates what existing research already covers from the specific question or framing being recorded.
 
 ## Quest Research Series
 
-A separate technical research collection documents Joe Nasr / QuestRequestVR work across **Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, multimodal interfaces, interactive visualization, and human-computer interaction**.
+This collection documents Joe Nasr and QuestRequestVR work across Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, multimodal interfaces, interactive visualization, immersive perception, and human computer interaction.
 
-The collection is written to be useful to **AI builders, tech builders, AI creators, AI teachers, Meta Quest engineers, XR/VR developers, spatial-computing developers, creative technologists, technical educators, HCI researchers, simulation developers, robotics/sensing experimenters, prototypers, and VR enthusiasts**.
-
-**Quest Research collection:**  
+Quest Research collection:  
 https://joenasriani.github.io/joe-research-registry/quest-research.html
 
-Projects currently indexed there:
+Current indexed projects:
 
-- Quest-XSA — Thermal & UV Sensory Augmentation for Meta Quest
-- Quest-MFTS — Multi-Function Tactical Simulation System for Meta Quest
-- Quest-4D — Simulating Hyperspace: 4D Perception in VR
-- Project EagleEye — Low-Cost Mixed-Reality Situational Awareness Research
+1. Quest XSA: thermal and ultraviolet sensory augmentation for Meta Quest. Status: technical research and design study.
+2. Quest MFTS: multimodal XR simulation system. Status: systems concept and feasibility study.
+3. Quest 4D: higher dimensional visualization in VR. Status: interactive research explainer and visualization study.
+4. Project EagleEye: low cost mixed reality situational awareness research. Status: technical research and experimental systems study.
+5. AURA: olfactory XR interface for Quest class headsets. Status: technical research and prototype design study.
+6. VR/AR and the Human Brain. Status: independent narrative evidence review, not a systematic review or journal publication.
+7. VR Immersion and Ketamine Induced Dissociation. Status: independent narrative evidence note, not clinical guidance or a systematic review.
 
-Each project explicitly distinguishes implemented, proposed, tested, and future work rather than treating conceptual architecture as completed validation.
+Each project distinguishes implemented, proposed, tested, inferred, and future work instead of treating conceptual architecture as completed validation.
 
 ## Research Note 001
 
@@ -41,16 +42,13 @@ Remove the broader layer of deliberately constructed institutional order, not go
 
 Spontaneous order, order without government, stateless societies, self governance, informal institutions, political anthropology, institutional economics, and self organization.
 
-**Research note**
-
+Research note:  
 https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html
 
-**Method**
-
+Method:  
 https://joenasriani.github.io/joe-research-registry/method.html
 
-**Authorship record**
-
+Authorship record:  
 https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html
 
 ## Publication rule
