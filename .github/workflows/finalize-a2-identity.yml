@@ -1,0 +1,52 @@
+name: Finalize A2 identity
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/finalize-a2-identity.yml
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Canonicalize Person identity
+        shell: python
+        run: |
+          from pathlib import Path
+          canonical_id = 'https://joe-nasr-signals.vercel.app/v2/#joe-nasr'
+          canonical_url = 'https://joe-nasr-signals.vercel.app/v2/'
+          local_id = 'https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html#joe-nasr'
+          local_url = 'https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html'
+
+          p = Path('index.html')
+          s = p.read_text()
+          s = s.replace(local_id, canonical_id)
+          old_person = '''        "@type": "Person",\n        "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",\n        "name": "Joe Nasr",\n        "url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",\n        "sameAs": [\n          "https://github.com/Joenasriani",\n          "https://joenasriani.github.io/Joe-Nasr-Signals/",\n          "https://linktr.ee/questrequestvr"\n        ]'''
+          new_person = '''        "@type": "Person",\n        "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",\n        "name": "Joe Nasr",\n        "alternateName": ["Joe Ribal Nasr", "Joseph Ribal Nasr"],\n        "url": "https://joe-nasr-signals.vercel.app/v2/",\n        "jobTitle": "Creative Technologist",\n        "sameAs": [\n          "https://github.com/Joenasriani",\n          "https://www.linkedin.com/in/joenasrprofile",\n          "https://linktr.ee/joenasr"\n        ]'''
+          if old_person in s:
+              s = s.replace(old_person, new_person)
+          p.write_text(s)
+
+          p = Path('notes/001-pre-institutional-human-order.html')
+          s = p.read_text().replace(local_id, canonical_id)
+          s = s.replace('"url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"', '"url": "https://joe-nasr-signals.vercel.app/v2/"')
+          p.write_text(s)
+
+          p = Path('author/joe-nasr.html')
+          s = p.read_text().replace('https://ae.linkedin.com/in/joenasrprofile', 'https://www.linkedin.com/in/joenasrprofile')
+          p.write_text(s)
+
+          for path in ['index.html','notes/001-pre-institutional-human-order.html','author/joe-nasr.html','quest-research.html']:
+              text = Path(path).read_text()
+              if local_id in text:
+                  raise SystemExit(f'duplicate Person ID remains in {path}')
+      - name: Commit identity corrections and remove one-time workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/finalize-a2-identity.yml
+          git add index.html notes/001-pre-institutional-human-order.html author/joe-nasr.html
+          git commit -m "Unify research registry with canonical Joe Nasr Person ID"
+          git push
