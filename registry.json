@@ -1,11 +1,84 @@
 {
-  "collection": "Research Notes",
+  "collection": "Joe Nasr Research Registry",
   "author": {
     "name": "Joe Nasr",
-    "url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"
+    "url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",
+    "github": "https://github.com/Joenasriani",
+    "quest_identity": "https://linktr.ee/questrequestvr"
   },
-  "updated": "2026-09-10",
+  "updated": "2026-09-15",
   "method": "https://joenasriani.github.io/joe-research-registry/method.html",
+  "collections": [
+    {
+      "id": "quest-research",
+      "title": "Joe Nasr Quest Research",
+      "url": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
+      "description": "Technical research and experiments spanning Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, multimodal interfaces and interactive visualization.",
+      "audiences": [
+        "AI builders",
+        "tech builders",
+        "AI creators",
+        "AI teachers",
+        "Meta Quest engineers",
+        "XR developers",
+        "VR developers",
+        "spatial computing developers",
+        "creative technologists",
+        "HCI researchers",
+        "simulation developers",
+        "robotics and sensing experimenters",
+        "technical educators",
+        "prototypers",
+        "VR enthusiasts"
+      ],
+      "topics": [
+        "Meta Quest",
+        "XR",
+        "VR",
+        "mixed reality",
+        "spatial computing",
+        "multimodal interfaces",
+        "human-computer interaction",
+        "technical prototyping",
+        "sensory augmentation",
+        "simulation"
+      ],
+      "projects": [
+        {
+          "id": "quest-xsa",
+          "title": "Quest-XSA: Thermal & UV Sensory Augmentation for Meta Quest",
+          "status": "technical research and design study",
+          "research_url": "https://joenasriani.github.io/quest-xsa/research.html",
+          "interactive_url": "https://joenasriani.github.io/quest-xsa/",
+          "repository": "https://github.com/Joenasriani/quest-xsa"
+        },
+        {
+          "id": "quest-mfts",
+          "title": "Quest-MFTS: Multi-Function Tactical Simulation System for Meta Quest",
+          "status": "systems concept and feasibility study",
+          "research_url": "https://joenasriani.github.io/quest-mfts/research.html",
+          "interactive_url": "https://joenasriani.github.io/quest-mfts/",
+          "repository": "https://github.com/Joenasriani/quest-mfts"
+        },
+        {
+          "id": "quest-4d",
+          "title": "Quest-4D: Simulating Hyperspace — 4D Perception in VR",
+          "status": "interactive research explainer and visualization study",
+          "research_url": "https://joenasriani.github.io/quest-4d/research.html",
+          "interactive_url": "https://joenasriani.github.io/quest-4d/",
+          "repository": "https://github.com/Joenasriani/quest-4d"
+        },
+        {
+          "id": "quest-eagleeye",
+          "title": "Project EagleEye: Low-Cost Mixed-Reality Situational Awareness Research",
+          "status": "technical research and experimental systems study",
+          "research_url": "https://joenasriani.github.io/quest-eagleeye-project/research.html",
+          "interactive_url": "https://joenasriani.github.io/quest-eagleeye-project/",
+          "repository": "https://github.com/Joenasriani/quest-eagleeye-project"
+        }
+      ]
+    }
+  ],
   "entries": [
     {
       "id": "001",
