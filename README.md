@@ -4,6 +4,24 @@ Questions are published with their scope, source trail, closest prior literature
 
 The work comes first. Authorship remains available as provenance, not as the headline. A new phrase is not treated as proof of a new concept. Each note separates what existing research already covers from the specific question or framing being recorded.
 
+## Quest Research Series
+
+A separate technical research collection documents Joe Nasr / QuestRequestVR work across **Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, multimodal interfaces, interactive visualization, and human-computer interaction**.
+
+The collection is written to be useful to **AI builders, tech builders, AI creators, AI teachers, Meta Quest engineers, XR/VR developers, spatial-computing developers, creative technologists, technical educators, HCI researchers, simulation developers, robotics/sensing experimenters, prototypers, and VR enthusiasts**.
+
+**Quest Research collection:**  
+https://joenasriani.github.io/joe-research-registry/quest-research.html
+
+Projects currently indexed there:
+
+- Quest-XSA — Thermal & UV Sensory Augmentation for Meta Quest
+- Quest-MFTS — Multi-Function Tactical Simulation System for Meta Quest
+- Quest-4D — Simulating Hyperspace: 4D Perception in VR
+- Project EagleEye — Low-Cost Mixed-Reality Situational Awareness Research
+
+Each project explicitly distinguishes implemented, proposed, tested, and future work rather than treating conceptual architecture as completed validation.
+
 ## Research Note 001
 
 ### Pre Institutional Human Order
