@@ -2,7 +2,10 @@
   "collection": "Joe Nasr Research Registry",
   "author": {
     "name": "Joe Nasr",
-    "url": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",
+    "canonical_identity": "https://joe-nasr-signals.vercel.app/v2/",
+    "author_record": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",
+    "primary_identity": "Creative Technologist",
+    "technical_focus": ["XR", "AI", "Interactive Systems"],
     "github": "https://github.com/Joenasriani",
     "quest_identity": "https://linktr.ee/questrequestvr"
   },
@@ -10,18 +13,15 @@
   "method": "https://joenasriani.github.io/joe-research-registry/method.html",
   "collections": [
     {
-      "id": "quest-research",
-      "title": "Joe Nasr Quest Research",
+      "id": "quest-immersive-research",
+      "title": "Joe Nasr Quest & Immersive Systems Research",
       "url": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-      "description": "Technical research spanning Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, wearable sensing, VR neuroscience, human-computer interaction and scientific visualization.",
+      "description": "Technical research spanning Meta Quest engineering, XR/VR, mixed reality, spatial computing, sensory augmentation, olfactory interfaces, simulation, wearable systems, VR neuroscience, HCI and immersive perception.",
       "audiences": [
         "Meta Quest engineers",
         "XR developers",
         "VR developers",
         "tech builders",
-        "AI builders",
-        "AI creators",
-        "AI teachers",
         "spatial computing developers",
         "creative technologists",
         "HCI researchers",
@@ -30,7 +30,8 @@
         "VR researchers",
         "technical educators",
         "prototypers",
-        "VR enthusiasts"
+        "VR enthusiasts",
+        "AI builders where the project has direct AI relevance"
       ],
       "topics": [
         "Meta Quest engineering",
@@ -41,9 +42,12 @@
         "human-computer interaction",
         "sensory augmentation",
         "thermal imaging",
+        "ultraviolet imaging",
+        "olfactory XR",
         "OpenXR simulation",
         "wearable computing",
         "VR neuroscience",
+        "immersive perception",
         "scientific visualization",
         "technical prototyping"
       ],
@@ -93,6 +97,17 @@
           "repository": "https://github.com/Joenasriani/quest-eagleeye-project"
         },
         {
+          "id": "aura-olfactory-xr",
+          "title": "AURA: Olfactory XR Interface for Quest-Class Headsets",
+          "status": "technical research and prototype-design study",
+          "primary_field": "olfactory XR / wearable multimodal interfaces",
+          "specialisms": ["olfactory HCI","multisensory VR","wearable scent interfaces","BLE control","embedded systems","active scent evacuation","Quest-class prototyping"],
+          "field_terms": ["olfactory XR","VR scent interface","mixed reality olfactory interface","Quest olfactory interface","wearable scent display","multisensory VR","olfactory HCI"],
+          "research_url": "https://joenasriani.github.io/olfac-channels/",
+          "interactive_url": null,
+          "repository": "https://github.com/Joenasriani/olfac-channels"
+        },
+        {
           "id": "vr-and-the-brain",
           "title": "VR/AR Effects on the Human Brain — Neuroscience Evidence Review",
           "status": "independent narrative evidence review",
@@ -102,6 +117,17 @@
           "research_url": "https://joenasriani.github.io/vr-and-the-brain/",
           "interactive_url": null,
           "repository": "https://github.com/Joenasriani/vr-and-the-brain"
+        },
+        {
+          "id": "vr-ket",
+          "title": "VR Immersion vs Ketamine Dissociation — Evidence Note",
+          "status": "independent narrative evidence note",
+          "primary_field": "immersive perception / dissociation / VR neuroscience",
+          "specialisms": ["virtual reality presence","embodiment","dissociation","ketamine-associated altered perception","human-computer interaction","evidence boundaries"],
+          "field_terms": ["VR dissociation","virtual reality presence","VR embodiment","ketamine dissociation","altered states of consciousness","immersive perception"],
+          "research_url": "https://joenasriani.github.io/vr-ket/",
+          "interactive_url": null,
+          "repository": "https://github.com/Joenasriani/vr-ket"
         }
       ]
     }
