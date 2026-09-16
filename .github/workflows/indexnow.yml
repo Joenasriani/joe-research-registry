@@ -13,21 +13,44 @@ jobs:
   submit:
     runs-on: ubuntu-latest
     steps:
-      - name: Submit canonical URLs
+      - uses: actions/checkout@v5
+
+      - name: Build verified registry URL list from sitemap
+        shell: python
+        run: |
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          prefix = "https://joenasriani.github.io/joe-research-registry/"
+          key = "1a1ec05d1ffc28cb56db4d15c836e31f"
+          key_location = prefix + key + ".txt"
+
+          root = ET.parse("sitemap.xml").getroot()
+          ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          urls = []
+          for loc in root.findall("sm:url/sm:loc", ns):
+              url = (loc.text or "").strip()
+              if url.startswith(prefix):
+                  urls.append(url)
+
+          if not urls:
+              raise SystemExit("No verified registry URLs found in sitemap.xml")
+
+          payload = {
+              "host": "joenasriani.github.io",
+              "key": key,
+              "keyLocation": key_location,
+              "urlList": urls,
+          }
+          Path("indexnow-payload.json").write_text(json.dumps(payload, indent=2))
+          print(f"Submitting {len(urls)} registry URLs under verified prefix {prefix}")
+
+      - name: Submit canonical registry URLs
         shell: bash
         run: |
           curl --fail --silent --show-error \
             --request POST \
             --header "Content-Type: application/json; charset=utf-8" \
-            --data '{
-              "host": "joenasriani.github.io",
-              "key": "1a1ec05d1ffc28cb56db4d15c836e31f",
-              "keyLocation": "https://joenasriani.github.io/joe-research-registry/1a1ec05d1ffc28cb56db4d15c836e31f.txt",
-              "urlList": [
-                "https://joenasriani.github.io/joe-research-registry/",
-                "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html",
-                "https://joenasriani.github.io/joe-research-registry/method.html",
-                "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html"
-              ]
-            }' \
+            --data-binary @indexnow-payload.json \
             "https://api.indexnow.org/indexnow"
