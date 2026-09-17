@@ -2,6 +2,7 @@
   "collection": "Joe Nasr Research Registry",
   "author": {
     "name": "Joe Nasr",
+    "alternate_names": ["Joe Ribal Nasr", "Joseph Ribal Nasr", "J. Nasr"],
     "canonical_identity": "https://joe-nasr-signals.vercel.app/v2/",
     "author_record": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",
     "primary_identity": "Creative Technologist",
@@ -9,7 +10,7 @@
     "github": "https://github.com/Joenasriani",
     "quest_identity": "https://linktr.ee/questrequestvr"
   },
-  "updated": "2026-09-15",
+  "updated": "2026-09-17",
   "method": "https://joenasriani.github.io/joe-research-registry/method.html",
   "collections": [
     {
