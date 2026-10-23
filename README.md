@@ -1,4 +1,12 @@
-# Research Notes
+# Joe Nasr Research Registry
+
+This repository is the central index of Joe Nasr's independent research. Detailed methods, code, demonstrations, and technical evidence remain in the individual project repositories. Entries here link to their original sources and identify the status of each study; inclusion in the registry is not a claim of independent validation or publication.
+
+**Research portal:** https://joenasriani.github.io/joe-research-registry/  
+**Quest/XR collection:** https://joenasriani.github.io/joe-research-registry/quest-research.html  
+**Research methodology:** https://joenasriani.github.io/joe-research-registry/method.html  
+**Citation guidance:** [CITATION.md](CITATION.md)  
+**Machine-readable catalog:** [registry.json](registry.json)
 
 Questions are published with scope, source trail, closest prior literature, evidence boundaries, and revision history.
 
@@ -11,15 +19,17 @@ This collection documents Joe Nasr and QuestRequestVR work across Meta Quest eng
 Quest Research collection:  
 https://joenasriani.github.io/joe-research-registry/quest-research.html
 
-Current indexed projects:
+Current indexed projects (open each source repository for the underlying work):
 
-1. Quest XSA: thermal and ultraviolet sensory augmentation for Meta Quest. Status: technical research and design study.
-2. Quest MFTS: multimodal XR simulation system. Status: systems concept and feasibility study.
-3. Quest 4D: higher dimensional visualization in VR. Status: interactive research explainer and visualization study.
-4. Project EagleEye: low cost mixed reality situational awareness research. Status: technical research and experimental systems study.
-5. AURA: olfactory XR interface for Quest class headsets. Status: technical research and prototype design study.
-6. VR/AR and the Human Brain. Status: independent narrative evidence review, not a systematic review or journal publication.
-7. VR Immersion and Ketamine Induced Dissociation. Status: independent narrative evidence note, not clinical guidance or a systematic review.
+| Project | Source repository | Recorded status |
+| --- | --- | --- |
+| Quest XSA | [quest-xsa](https://github.com/Joenasriani/quest-xsa) | Technical research and design study |
+| Quest MFTS | [quest-mfts](https://github.com/Joenasriani/quest-mfts) | Systems concept and feasibility study |
+| Quest 4D | [quest-4d](https://github.com/Joenasriani/quest-4d) | Interactive research explainer and visualization study |
+| Project EagleEye | [quest-eagleeye-project](https://github.com/Joenasriani/quest-eagleeye-project) | Technical research and experimental systems study |
+| AURA | [olfac-channels](https://github.com/Joenasriani/olfac-channels) | Technical research and prototype design study |
+| VR/AR and the Human Brain | [vr-and-the-brain](https://github.com/Joenasriani/vr-and-the-brain) | Independent narrative evidence review, not a systematic review or journal publication |
+| VR Immersion and Ketamine Induced Dissociation | [vr-ket](https://github.com/Joenasriani/vr-ket) | Independent narrative evidence note, not clinical guidance or a systematic review |
 
 Each project distinguishes implemented, proposed, tested, inferred, and future work instead of treating conceptual architecture as completed validation.
 
