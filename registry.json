@@ -18,7 +18,7 @@
     "github": "https://github.com/Joenasriani",
     "quest_identity": "https://linktr.ee/questrequestvr"
   },
-  "updated": "2026-09-30",
+  "updated": "2026-10-23",
   "method": "https://joenasriani.github.io/joe-research-registry/method.html",
   "collections": [
     {
@@ -85,7 +85,10 @@
           ],
           "research_url": "https://joenasriani.github.io/quest-xsa/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-xsa/",
-          "repository": "https://github.com/Joenasriani/quest-xsa"
+          "repository": "https://github.com/Joenasriani/quest-xsa",
+          "reported_publication_doi": "10.5281/zenodo.23538919",
+          "reported_publication_url": "https://zenodo.org/records/23538919",
+          "doi_verification": "user-confirmed; live Zenodo record unverified"
         },
         {
           "id": "quest-mfts",
@@ -111,7 +114,10 @@
           ],
           "research_url": "https://joenasriani.github.io/quest-mfts/research.html",
           "interactive_url": "https://joenasriani.github.io/quest-mfts/",
-          "repository": "https://github.com/Joenasriani/quest-mfts"
+          "repository": "https://github.com/Joenasriani/quest-mfts",
+          "reported_publication_doi": "10.5281/zenodo.23552640",
+          "reported_publication_url": "https://zenodo.org/records/23552640",
+          "doi_verification": "user-confirmed; live Zenodo record unverified"
         },
         {
           "id": "quest-4d",
@@ -278,5 +284,46 @@
       ],
       "url": "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html"
     }
-  ]
+  ],
+  "doi_publication_register": {
+    "source": "ChatGPT research DOI registrar, 2026-10-23",
+    "verification_note": "DOI-to-title mappings recorded from user conversation and prior ChatGPT history. Zenodo public metadata could not be independently accessed; publication claims and version details require verification. DOI does not indicate peer review.",
+    "records": [
+      {
+        "id": "icf-ai",
+        "title": "ICF-AI – An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems",
+        "doi": "10.5281/zenodo.23504055",
+        "record_url": "https://zenodo.org/records/23504055",
+        "repository": "https://github.com/Joenasriani/icf-ai",
+        "verification": "user-confirmed mapping; live Zenodo metadata unverified",
+        "doi_url": "https://doi.org/10.5281/zenodo.23504055"
+      },
+      {
+        "id": "quest-xsa",
+        "title": "Quest-XSA – Thermal and UV Sensory Augmentation for Meta Quest",
+        "doi": "10.5281/zenodo.23538919",
+        "record_url": "https://zenodo.org/records/23538919",
+        "repository": "https://github.com/Joenasriani/quest-xsa",
+        "verification": "user-confirmed mapping; live Zenodo metadata unverified",
+        "doi_url": "https://doi.org/10.5281/zenodo.23538919"
+      },
+      {
+        "id": "quest-mfts",
+        "title": "Quest-MFTS – A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls",
+        "doi": "10.5281/zenodo.23552640",
+        "record_url": "https://zenodo.org/records/23552640",
+        "repository": "https://github.com/Joenasriani/quest-mfts",
+        "verification": "user-confirmed mapping; live Zenodo metadata unverified",
+        "doi_url": "https://doi.org/10.5281/zenodo.23552640"
+      },
+      {
+        "id": "mpi-air",
+        "title": "MPI-AIR – Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art",
+        "doi": "10.5281/zenodo.23592679",
+        "record_url": "https://zenodo.org/records/23592679",
+        "verification": "recovered ChatGPT mapping; live Zenodo metadata unverified",
+        "doi_url": "https://doi.org/10.5281/zenodo.23592679"
+      }
+    ]
+  }
 }
