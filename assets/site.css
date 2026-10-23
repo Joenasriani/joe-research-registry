@@ -373,7 +373,11 @@ footer {
 @media (max-width: 760px) {
   .masthead { align-items: flex-start; flex-direction: column; padding-top: 20px; padding-bottom: 18px; }
   .topnav { flex-wrap: wrap; justify-content: flex-start; }
-  .opening { min-height: 64vh; grid-template-columns: 1fr; }
+  .opening { min-height: 0; padding-top: 48px; padding-bottom: 64px; grid-template-columns: 1fr; align-content: start; gap: 22px; }
+  .opening h1 { font-size: clamp(46px, 11vw, 78px); line-height: .98; }
+  .masthead .name { font-size: 13px; }
+  .topnav { font-size: 12px; gap: 12px 20px; }
+  .topnav a { display: inline-flex; align-items: center; min-height: 36px; }
   .intro { max-width: 620px; }
   .entry { grid-template-columns: 1fr; }
   .entrymeta { border-right: 0; border-bottom: 1px solid var(--rule); padding-right: 0; flex-direction: row; flex-wrap: wrap; }
