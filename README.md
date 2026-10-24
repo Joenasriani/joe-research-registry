@@ -50,3 +50,18 @@ The four title–DOI mappings were recorded in Joe Nasr's research DOI register 
 **Author name:** Joseph Ribal Nasr (Joe Nasr). **Research identifier:** [ORCID 0009-0004-5698-9097](https://orcid.org/0009-0004-5698-9097).
 
 A Zenodo DOI identifies a research record; it does not itself establish peer review, experimental validation, or an academic affiliation.
+
+## Books & Bookstore
+
+The following six titles are listed in the [Reasoning & Logic bookstore](https://reasoning-and-logic.vercel.app/). Each link opens the publicly listed book or publication website.
+
+| Book or publication title | Read online | Bookstore |
+| --- | --- | --- |
+| Mamdani: From Zero to Hero | [Open book](https://mamdani-from-zero-to-hero.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| Generative Music Systems | [Open book](https://generative-music-systems.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| Dorking: The Art of Search Intelligence | [Open book](https://dorking-mu.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| The Structure of Life | [Open book](https://structure-of-life-book.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| ICF-AI | [Open publication](https://icf-ai.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| Manipulation: The Fool & The Wise | [Open book](https://manipulation-book-theta.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+
+**Publication relationship:** ICF-AI appears both in the DOI research list and in the bookstore as another access route to the same work, not a second publication.
