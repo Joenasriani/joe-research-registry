@@ -1,58 +1,25 @@
-# Research Notes
+# Joe Nasr – Research & Publications
 
-Questions are published with scope, source trail, closest prior literature, evidence boundaries, and revision history.
+A concise directory of existing research profiles and recorded research publications by **Joseph Ribal Nasr (Joe Nasr)**.
 
-The work comes first. Authorship remains available as provenance, not as the headline. A new phrase is not treated as proof of a new concept. Each note separates what existing research already covers from the specific question or framing being recorded.
+## Research websites, accounts and profiles
 
-## Quest Research Series
+| Platform | Account / profile | Link |
+| --- | --- | --- |
+| ORCID | `0009-0004-5698-9097` | https://orcid.org/0009-0004-5698-9097 |
+| Zenodo | Username: `Joenasr` | https://zenodo.org/ |
+| Google Scholar | Joe Nasr | https://scholar.google.com/citations?user=V_8fZGQAAAAJ |
+| Research & Publications | Publications library | https://joe-nasr-publications.vercel.app/ |
 
-This collection documents Joe Nasr and QuestRequestVR work across Meta Quest engineering, XR and VR, mixed reality, spatial computing, sensory augmentation, simulation, multimodal interfaces, interactive visualization, immersive perception, and human computer interaction.
+ORCID is an existing researcher identifier; the research works have not yet been added to Joe's ORCID record. The Zenodo username is user-confirmed; a public username-specific profile URL has not been verified.
 
-Quest Research collection:  
-https://joenasriani.github.io/joe-research-registry/quest-research.html
+## Research publications with recorded DOIs
 
-Current indexed projects:
+| Research publication | DOI | Zenodo record |
+| --- | --- | --- |
+| **ICF-AI** – An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems | [10.5281/zenodo.23504055](https://doi.org/10.5281/zenodo.23504055) | [Record 23504055](https://zenodo.org/records/23504055) |
+| **Quest-XSA** – Thermal and UV Sensory Augmentation for Meta Quest | [10.5281/zenodo.23538919](https://doi.org/10.5281/zenodo.23538919) | [Record 23538919](https://zenodo.org/records/23538919) |
+| **Quest-MFTS** – A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls | [10.5281/zenodo.23552640](https://doi.org/10.5281/zenodo.23552640) | [Record 23552640](https://zenodo.org/records/23552640) |
+| **MPI-AIR** – Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Record 23592679](https://zenodo.org/records/23592679) |
 
-1. Quest XSA: thermal and ultraviolet sensory augmentation for Meta Quest. Status: technical research and design study.
-2. Quest MFTS: multimodal XR simulation system. Status: systems concept and feasibility study.
-3. Quest 4D: higher dimensional visualization in VR. Status: interactive research explainer and visualization study.
-4. Project EagleEye: low cost mixed reality situational awareness research. Status: technical research and experimental systems study.
-5. AURA: olfactory XR interface for Quest class headsets. Status: technical research and prototype design study.
-6. VR/AR and the Human Brain. Status: independent narrative evidence review, not a systematic review or journal publication.
-7. VR Immersion and Ketamine Induced Dissociation. Status: independent narrative evidence note, not clinical guidance or a systematic review.
-
-Each project distinguishes implemented, proposed, tested, inferred, and future work instead of treating conceptual architecture as completed validation.
-
-## Research Note 001
-
-### Pre Institutional Human Order
-
-**Status:** Working research question  
-**First recorded:** 10 September 2026
-
-**Question**
-
-If government and every other deliberately designed institution of collective order are removed from the model, what forms of human coordination would still arise from interaction itself?
-
-**Specific move being tested**
-
-Remove the broader layer of deliberately constructed institutional order, not government alone, then ask what coordination remains and what forms first.
-
-**Closest established research**
-
-Spontaneous order, order without government, stateless societies, self governance, informal institutions, political anthropology, institutional economics, and self organization.
-
-Research note:  
-https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html
-
-Method:  
-https://joenasriani.github.io/joe-research-registry/method.html
-
-Authorship record:  
-https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html
-
-## Publication rule
-
-Let the reader encounter the question before the author. If the work earns further interest, the source and authorship record remain available.
-
-Claims of novelty require more than an unsuccessful phrase search. A note must identify prior terminology, adjacent theory, empirical precedent, and unresolved overlap before any part of the framing is described as distinct.
+These four DOI-to-title mappings are already recorded in the research DOI register (October 23, 2026). The Quest-XSA public record was previously checked through Zenodo's API; the other records' live metadata, and current availability of all four, have not been independently rechecked in this README update. DOI registration does not imply peer review.
