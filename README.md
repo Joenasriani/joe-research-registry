@@ -1,6 +1,6 @@
 # Joe Nasr (Joseph Ribal Nasr) – Research Publications, Zenodo DOIs & Researcher Profiles
 
-**Joe Nasr**, also listed as **Joseph Ribal Nasr**, maintains research records covering artificial intelligence (AI), causal-claim documentation, extended reality (XR), virtual reality (VR), Meta Quest sensory augmentation, multimodal simulation, and AI information retrieval. This GitHub repository is an index of his existing research profiles and four recorded Zenodo publications; the linked Zenodo records and DOIs are the publication references.
+**Joe Nasr**, also listed as **Joseph Ribal Nasr**, maintains research records covering artificial intelligence (AI), causal-claim documentation, extended reality (XR), virtual reality (VR), Meta Quest sensory augmentation, multimodal simulation, and AI information retrieval. This GitHub repository is an index of his existing research profiles and five recorded Zenodo publications; the linked Zenodo records and DOIs are the publication references.
 
 ## Researcher profiles and publication websites
 
@@ -43,9 +43,18 @@ A bounded prior-art review concerning how AI information retrieval represents mu
 - **DOI:** [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679)
 - **Zenodo publication record:** [zenodo.org/records/23592679](https://zenodo.org/records/23592679)
 
+### Tongue as Trackpad – Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface
+
+Conceptual engineering report on a tongue-operated, palate-mounted capacitive human–computer interface for hands-free digital interaction. The design is proposed; it has not been demonstrated as a functioning prototype or clinically validated.
+
+- **Author:** Joseph Ribal Nasr
+- **DOI:** [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202)
+- **Zenodo publication record:** [zenodo.org/records/23622202](https://zenodo.org/records/23622202)
+- **Version:** 1.0 · **Year:** 2026 · **Type:** Research report · **License:** CC BY 4.0
+
 ## Publication and attribution notes
 
-The four title–DOI mappings were recorded in Joe Nasr's research DOI register on **October 23, 2026**. Quest-XSA's Zenodo record was previously checked through the public API; the other records have not been independently reverified in this README update. Follow each DOI or Zenodo link for the record's authoritative publication metadata, including date, version, license, and document.
+The first four title–DOI mappings were recorded in Joe Nasr's research DOI register on **October 23, 2026**. The fifth, Tongue as Trackpad, was verified against its public Zenodo record on **October 24, 2026**. Quest-XSA's Zenodo record was previously checked through the public API; current metadata for the remaining earlier records has not been independently reverified in this README update. Follow each DOI or Zenodo link for the record's authoritative publication metadata, including date, version, license, and document.
 
 **Author name:** Joseph Ribal Nasr (Joe Nasr). **Research identifier:** [ORCID 0009-0004-5698-9097](https://orcid.org/0009-0004-5698-9097).
 
