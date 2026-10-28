@@ -345,7 +345,11 @@
         "publication_type": null,
         "version": null,
         "files_verified": false,
-        "notes": "User-reported DOI. Public DOI and Zenodo record could not be accessed for independent verification. Do not classify as published or associate with a specific title until metadata is checked."
+        "notes": "Screenshot verifies the title, book classification, open-access label and upload date on the user's Zenodo uploads page, but does not display the DOI or prove this DOI belongs to that record. Confirm DOI-to-title mapping from record details before promotion to recorded publication index.",
+        "candidate_title": "The Composer's Prompt",
+        "candidate_resource_type": "Book",
+        "screenshot_evidence": "User-provided screenshot of Zenodo My uploads, 2026-10-28: open-access Book, The Composer's Prompt, Nasr, Joe, uploaded 2026-10-27; six uploads shown.",
+        "doi_title_link_verified": false
       }
     ],
     "last_registry_review": "2026-10-28"
