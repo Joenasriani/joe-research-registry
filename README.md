@@ -4,7 +4,7 @@
 
 ## DOI publication index
 
-These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI resolves to a publication record on Zenodo; individual records are the authoritative sources for their bibliographic metadata.
+These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI is linked to its reported Zenodo record. Consult the individual Zenodo records for authoritative bibliographic metadata; not every DOI-to-title mapping has been independently reverified.
 
 | Publication title | DOI | Publication website |
 | --- | --- | --- |
@@ -24,46 +24,7 @@ These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI res
 | Google Scholar | Joe Nasr – Google Scholar citations profile | [Google Scholar profile](https://scholar.google.com/citations?user=V_8fZGQAAAAJ) |
 | Research & Publications | Joe Nasr's research and publications catalogue | [Publications website](https://joe-nasr-publications.vercel.app/) |
 
-The ORCID iD is an existing account; these research works have **not yet been added to ORCID**. The Zenodo username is user-confirmed; a specific public Zenodo user-profile URL has not been independently verified.
-
-## Research publications and DOI links
-
-### ICF-AI – An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems
-
-Research on documenting causal claims and evidence status in AI systems.
-
-- **DOI:** [10.5281/zenodo.23504055](https://doi.org/10.5281/zenodo.23504055)
-- **Zenodo publication record:** [zenodo.org/records/23504055](https://zenodo.org/records/23504055)
-
-### Quest-XSA – Thermal and UV Sensory Augmentation for Meta Quest
-
-Technical design research on thermal and ultraviolet sensing for Meta Quest mixed reality and XR.
-
-- **DOI:** [10.5281/zenodo.23538919](https://doi.org/10.5281/zenodo.23538919)
-- **Zenodo publication record:** [zenodo.org/records/23538919](https://zenodo.org/records/23538919)
-
-### Quest-MFTS – A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls
-
-Proposed XR simulation architecture involving consumer headsets, physical controls, and multimodal interaction; not a claim of a validated integrated system.
-
-- **DOI:** [10.5281/zenodo.23552640](https://doi.org/10.5281/zenodo.23552640)
-- **Zenodo publication record:** [zenodo.org/records/23552640](https://zenodo.org/records/23552640)
-
-### MPI-AIR – Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art
-
-A bounded prior-art review concerning how AI information retrieval represents multidisciplinary professional identity.
-
-- **DOI:** [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679)
-- **Zenodo publication record:** [zenodo.org/records/23592679](https://zenodo.org/records/23592679)
-
-### Tongue as Trackpad – Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface
-
-Conceptual engineering report on a tongue-operated, palate-mounted capacitive human–computer interface for hands-free digital interaction. The design is proposed; it has not been demonstrated as a functioning prototype or clinically validated.
-
-- **Author:** Joseph Ribal Nasr
-- **DOI:** [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202)
-- **Zenodo publication record:** [zenodo.org/records/23622202](https://zenodo.org/records/23622202)
-- **Version:** 1.0 · **Year:** 2026 · **Type:** Research report · **License:** CC BY 4.0
+ORCID synchronization has not been independently verified; do not infer that these works are or are not currently listed on the ORCID profile. The Zenodo username is user-confirmed; a specific public Zenodo user-profile URL has not been independently verified.
 
 ## Publication and attribution notes
 
@@ -73,9 +34,9 @@ The first four title–DOI mappings were recorded in Joe Nasr's research DOI reg
 
 A Zenodo DOI identifies a research record; it does not itself establish peer review, experimental validation, or an academic affiliation.
 
-## Books & Bookstore
+## Books and reading websites
 
-The following six titles are listed in the [Reasoning & Logic bookstore](https://reasoning-and-logic.vercel.app/). Each link opens the publicly listed book or publication website.
+The following six titles were recorded in the [Reasoning & Logic bookstore](https://reasoning-and-logic.vercel.app/). These are separately listed reading links, not automatically additional DOI publications. Current site availability has not been rechecked.
 
 | Book or publication title | Read online | Bookstore |
 | --- | --- | --- |
@@ -87,3 +48,7 @@ The following six titles are listed in the [Reasoning & Logic bookstore](https:/
 | Manipulation: The Fool & The Wise | [Open book](https://manipulation-book-theta.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
 
 **Publication relationship:** ICF-AI appears both in the DOI research list and in the bookstore as another access route to the same work, not a second publication.
+
+## Repository maintenance
+
+This repository is a README-first listing, **not a website**. See [REPOSITORY_GUIDE.md](REPOSITORY_GUIDE.md) for the governing maintenance instructions and [registry.json](registry.json) for structured DOI records and unresolved verification notes. Archived legacy website material is available only on the [archive branch](https://github.com/Joenasriani/joe-research-registry/tree/archive/legacy-research-website-2026-10).
