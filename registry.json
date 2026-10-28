@@ -353,7 +353,7 @@
       },
       {
         "id": "the-composers-prompt",
-        "title": "The Composer's Prompt",
+        "title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
         "doi": "10.5281/zenodo.23689714",
         "doi_url": "https://doi.org/10.5281/zenodo.23689714",
         "record_url": "https://zenodo.org/records/23689714",
@@ -361,9 +361,10 @@
         "resource_type": "Book",
         "creator_as_shown": "Nasr, Joe",
         "uploaded_on_as_shown": "2026-10-27",
-        "status": "AUTHOR_SUPPLIED_DOI_MAPPING_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
+        "status": "AUTHOR_SUPPLIED_DOI_AND_REVISED_TITLE_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
         "evidence": "User-supplied DOI plus screenshot of Zenodo uploads listing; public DOI record not independently fetched",
-        "files_verified": false
+        "files_verified": false,
+        "title_source": "Author-reported revised Zenodo title, 2026-10-28"
       }
     ],
     "last_registry_review": "2026-10-28"
