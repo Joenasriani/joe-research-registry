@@ -14,13 +14,13 @@ These five research reports are attributed to **Joseph Ribal Nasr (Joe Nasr)**. 
 | MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Zenodo 23592679](https://zenodo.org/records/23592679) |
 | Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface | [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202) | [Zenodo 23622202](https://zenodo.org/records/23622202) |
 
-## Newly reported DOI – verification pending (28 October 2026)
+## Latest book deposit – user-provided DOI (28 October 2026)
 
-| Reported DOI | Zenodo record | Verification status |
+| Work | DOI supplied by author | Evidence status |
 | --- | --- | --- |
-| [10.5281/zenodo.23689713](https://doi.org/10.5281/zenodo.23689713) | [Zenodo 23689713](https://zenodo.org/records/23689713) | **DOI–title association unverified** – screenshot confirms a book titled *The Composer's Prompt* exists; the screenshot does not expose its DOI or deposited files. |
+| **The Composer's Prompt** (Book; Zenodo upload shown as 27 October 2026) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | **Author-supplied title–DOI association.** Zenodo uploads screenshot independently shows title, creator, book type and open-access status; exact DOI mapping, deposited files and full metadata were not independently retrievable in this audit. |
 
-A user-supplied screenshot of Zenodo's **My uploads** page shows **The Composer's Prompt** (Nasr, Joe) as an **open-access Book**, uploaded **27 October 2026**, among six uploads. However, that screenshot does **not show the book's DOI**, so the mapping to `10.5281/zenodo.23689713` remains unconfirmed. This identifier is not yet counted among the five previously documented DOI–title mappings pending verification of the individual Zenodo record.
+**Correction:** `10.5281/zenodo.23689713` was previously recorded as the new DOI, but that title association was not verified. The author has now provided `10.5281/zenodo.23689714` as the DOI for this book. Do not assume that these two DOI numbers are equivalent or that one is a concept/version DOI without consulting Zenodo metadata.
 
 ## Researcher profiles and publication websites
 
