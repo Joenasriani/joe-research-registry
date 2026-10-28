@@ -1,26 +1,19 @@
 # Joe Nasr (Joseph Ribal Nasr) – Research Publications, Zenodo DOIs & Researcher Profiles
 
-**Joe Nasr**, also listed as **Joseph Ribal Nasr**, maintains research records covering artificial intelligence (AI), causal-claim documentation, extended reality (XR), virtual reality (VR), Meta Quest sensory augmentation, multimodal simulation, and AI information retrieval. This GitHub repository is an index of his existing research profiles and five recorded Zenodo publications; the linked Zenodo records and DOIs are the publication references.
+**Joe Nasr**, also listed as **Joseph Ribal Nasr**, maintains research records covering artificial intelligence (AI), causal-claim documentation, extended reality (XR), virtual reality (VR), Meta Quest sensory augmentation, multimodal simulation, and AI information retrieval. This GitHub repository is an index of his existing research profiles and six listed Zenodo publications; the linked Zenodo records and DOIs are the publication references.
 
 ## DOI publication index
 
-These five research reports are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI resolves to a publication record on Zenodo; individual records are the authoritative sources for their bibliographic metadata.
+These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI resolves to a publication record on Zenodo; individual records are the authoritative sources for their bibliographic metadata.
 
-| Research publication | DOI | Zenodo source |
+| Publication title | DOI | Publication website |
 | --- | --- | --- |
 | ICF-AI: An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems | [10.5281/zenodo.23504055](https://doi.org/10.5281/zenodo.23504055) | [Zenodo 23504055](https://zenodo.org/records/23504055) |
 | Quest-XSA: Thermal and UV Sensory Augmentation for Meta Quest | [10.5281/zenodo.23538919](https://doi.org/10.5281/zenodo.23538919) | [Zenodo 23538919](https://zenodo.org/records/23538919) |
 | Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls | [10.5281/zenodo.23552640](https://doi.org/10.5281/zenodo.23552640) | [Zenodo 23552640](https://zenodo.org/records/23552640) |
 | MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Zenodo 23592679](https://zenodo.org/records/23592679) |
 | Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface | [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202) | [Zenodo 23622202](https://zenodo.org/records/23622202) |
-
-## Latest book deposit – user-provided DOI (28 October 2026)
-
-| Work | DOI supplied by author | Evidence status |
-| --- | --- | --- |
-| **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting** (Book; Zenodo upload shown as 27 October 2026) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | **Author-supplied title–DOI association.** Zenodo uploads screenshot independently shows title, creator, book type and open-access status; exact DOI mapping, deposited files and full metadata were not independently retrievable in this audit. |
-
-**Correction:** `10.5281/zenodo.23689713` was previously recorded as the new DOI, but that title association was not verified. The author has now provided `10.5281/zenodo.23689714` as the DOI for this book. Do not assume that these two DOI numbers are equivalent or that one is a concept/version DOI without consulting Zenodo metadata.
+| The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting (Book) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | [Zenodo 23689714](https://zenodo.org/records/23689714) |
 
 ## Researcher profiles and publication websites
 
