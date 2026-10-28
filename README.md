@@ -18,9 +18,9 @@ These five research reports are attributed to **Joseph Ribal Nasr (Joe Nasr)**. 
 
 | Reported DOI | Zenodo record | Verification status |
 | --- | --- | --- |
-| [10.5281/zenodo.23689713](https://doi.org/10.5281/zenodo.23689713) | [Zenodo 23689713](https://zenodo.org/records/23689713) | **Unverified** – exact title, creator, publication type, files, date, version and public accessibility have not been confirmed against the live record. |
+| [10.5281/zenodo.23689713](https://doi.org/10.5281/zenodo.23689713) | [Zenodo 23689713](https://zenodo.org/records/23689713) | **DOI–title association unverified** – screenshot confirms a book titled *The Composer's Prompt* exists; the screenshot does not expose its DOI or deposited files. |
 
-This identifier was reported in the publication discussion on 28 October 2026. It is intentionally **not counted** among the five previously recorded publications until the primary Zenodo metadata can be checked. It is not assigned to *The Composer’s Prompt* or any other work without evidence.
+A user-supplied screenshot of Zenodo's **My uploads** page shows **The Composer's Prompt** (Nasr, Joe) as an **open-access Book**, uploaded **27 October 2026**, among six uploads. However, that screenshot does **not show the book's DOI**, so the mapping to `10.5281/zenodo.23689713` remains unconfirmed. This identifier is not yet counted among the five previously documented DOI–title mappings pending verification of the individual Zenodo record.
 
 ## Researcher profiles and publication websites
 
