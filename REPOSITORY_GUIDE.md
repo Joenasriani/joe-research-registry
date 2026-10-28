@@ -43,3 +43,9 @@ Suggested description:
 > Joe Nasr’s publication library: research papers, technical reports and books, with Zenodo DOIs, publication links and researcher profiles. README-first index; not a website.
 
 Only update the GitHub About/description field when an authorized tool supporting repository metadata changes is available; creating this document does not change that setting.
+
+## Legacy website archive (28 October 2026)
+
+The former GitHub Pages/HTML research website was preserved in branch [`archive/legacy-research-website-2026-10`](https://github.com/Joenasriani/joe-research-registry/tree/archive/legacy-research-website-2026-10) before cleanup. Website pages and the original HTML research note were removed from `main` to keep the main branch focused on the README publication library. **Do not restore or redeploy these pages unless explicitly asked.** This archive is preservation, not an endorsement or independent publication of those pages.
+
+Some legacy supporting files and website infrastructure may still be present on `main`; inspect before any additional removal. Never delete unique research content without preserving a recoverable copy.
