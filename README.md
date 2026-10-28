@@ -14,6 +14,14 @@ These five research reports are attributed to **Joseph Ribal Nasr (Joe Nasr)**. 
 | MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Zenodo 23592679](https://zenodo.org/records/23592679) |
 | Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface | [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202) | [Zenodo 23622202](https://zenodo.org/records/23622202) |
 
+## Newly reported DOI – verification pending (28 October 2026)
+
+| Reported DOI | Zenodo record | Verification status |
+| --- | --- | --- |
+| [10.5281/zenodo.23689713](https://doi.org/10.5281/zenodo.23689713) | [Zenodo 23689713](https://zenodo.org/records/23689713) | **Unverified** – exact title, creator, publication type, files, date, version and public accessibility have not been confirmed against the live record. |
+
+This identifier was reported in the publication discussion on 28 October 2026. It is intentionally **not counted** among the five previously recorded publications until the primary Zenodo metadata can be checked. It is not assigned to *The Composer’s Prompt* or any other work without evidence.
+
 ## Researcher profiles and publication websites
 
 | Service | Research identity or website | Link |
