@@ -14,7 +14,7 @@ Because the note may change as related literature is found, include the access d
 
 For a work deposited in Zenodo, cite its **individual Zenodo record** rather than this registry. Check the authoritative record for its exact title, creator, publication date, version, resource type and DOI before formatting a reference. The README and registry.json are discovery indexes, not replacements for the deposited file or record metadata.
 
-The DOI `10.5281/zenodo.23689713` was reported on 28 October 2026 but its title, files and publication status have not been independently verified; do not generate a completed bibliographic citation from that number alone.
+For *The Composer's Prompt*, the author supplied DOI `10.5281/zenodo.23689714` on 28 October 2026. The Zenodo uploads screenshot confirms an open-access book under that title, but independent DOI metadata retrieval was unavailable. Verify the record's exact bibliographic metadata before generating a final formal citation. The earlier reported `10.5281/zenodo.23689713` should not be assumed equivalent.
 
 ## Citing this registry
 
