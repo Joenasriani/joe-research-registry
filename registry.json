@@ -8,7 +8,7 @@
       "J. Nasr"
     ],
     "canonical_identity": "https://joe-nasr-signals.vercel.app/",
-    "author_record": "https://joenasriani.github.io/joe-research-registry/author/joe-nasr.html",
+    "author_record": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/author/joe-nasr.html",
     "primary_identity": "Creative Director | Digital Experiences | Interactive Prototyping",
     "technical_focus": [
       "XR",
@@ -19,12 +19,12 @@
     "quest_identity": "https://linktr.ee/questrequestvr"
   },
   "updated": "2026-10-28",
-  "method": "https://joenasriani.github.io/joe-research-registry/method.html",
+  "method": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/method.html",
   "collections": [
     {
       "id": "quest-immersive-research",
       "title": "Joe Nasr Quest & Immersive Systems Research",
-      "url": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
+      "url": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/quest-research.html",
       "description": "Technical research spanning Meta Quest engineering, XR/VR, mixed reality, spatial computing, sensory augmentation, olfactory interfaces, simulation, wearable systems, VR neuroscience, HCI and immersive perception.",
       "audiences": [
         "Meta Quest engineers",
@@ -282,7 +282,7 @@
         "What does Pre Institutional Human Order mean?",
         "How is this different from spontaneous order?"
       ],
-      "url": "https://joenasriani.github.io/joe-research-registry/notes/001-pre-institutional-human-order.html"
+      "url": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/notes/001-pre-institutional-human-order.html"
     }
   ],
   "doi_publication_register": {
