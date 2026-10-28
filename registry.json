@@ -339,17 +339,31 @@
         "doi_url": "https://doi.org/10.5281/zenodo.23689713",
         "record_url": "https://zenodo.org/records/23689713",
         "reported_on": "2026-10-28",
-        "status": "UNVERIFIED",
+        "status": "SUPERSEDED_AS_REPORTED_DOI_UNRESOLVED",
         "title": null,
         "creator": null,
         "publication_type": null,
         "version": null,
         "files_verified": false,
-        "notes": "Screenshot verifies the title, book classification, open-access label and upload date on the user's Zenodo uploads page, but does not display the DOI or prove this DOI belongs to that record. Confirm DOI-to-title mapping from record details before promotion to recorded publication index.",
+        "notes": "Originally reported on 28 October 2026; subsequently user provided 10.5281/zenodo.23689714 for The Composer's Prompt. Relationship between these identifiers unverified.",
         "candidate_title": "The Composer's Prompt",
         "candidate_resource_type": "Book",
         "screenshot_evidence": "User-provided screenshot of Zenodo My uploads, 2026-10-28: open-access Book, The Composer's Prompt, Nasr, Joe, uploaded 2026-10-27; six uploads shown.",
         "doi_title_link_verified": false
+      },
+      {
+        "id": "the-composers-prompt",
+        "title": "The Composer's Prompt",
+        "doi": "10.5281/zenodo.23689714",
+        "doi_url": "https://doi.org/10.5281/zenodo.23689714",
+        "record_url": "https://zenodo.org/records/23689714",
+        "reported_on": "2026-10-28",
+        "resource_type": "Book",
+        "creator_as_shown": "Nasr, Joe",
+        "uploaded_on_as_shown": "2026-10-27",
+        "status": "AUTHOR_SUPPLIED_DOI_MAPPING_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
+        "evidence": "User-supplied DOI plus screenshot of Zenodo uploads listing; public DOI record not independently fetched",
+        "files_verified": false
       }
     ],
     "last_registry_review": "2026-10-28"
