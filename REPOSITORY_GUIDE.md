@@ -6,7 +6,7 @@
 
 The primary user-facing deliverable is the GitHub repository's `README.md`, which lists research publications, books, DOIs, publication-record URLs, related project/repository URLs when documented, and researcher-profile links.
 
-The repository may contain legacy HTML research notes and supporting files. Their presence does **not** authorize creating, redesigning, deploying, or promoting a website. Do not refer to GitHub Pages as the main library or offer a “preview” URL for the README. The correct library URL is the GitHub repository itself.
+The `main` branch intentionally contains only `README.md`, `REPOSITORY_GUIDE.md`, `registry.json`, and `CITATION.md`. The former HTML website and its supporting files were moved out of `main` and remain recoverable on the archive branch. Their historical presence does **not** authorize creating, redesigning, deploying, or promoting a website. Do not refer to GitHub Pages as the main library or offer a “preview” URL for the README. The correct library URL is the GitHub repository itself.
 
 ## What to do when maintaining this repository
 
@@ -30,7 +30,7 @@ The repository may contain legacy HTML research notes and supporting files. Thei
 
 ## Current library example
 
-The publication library currently includes six author-recorded works. The newest is **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting**, a book associated by the author with DOI `10.5281/zenodo.23689714`. The earlier `10.5281/zenodo.23689713` is an unresolved historical identifier, **not a seventh publication**. Consult `registry.json` for evidence status, and do not infer a relationship between the two DOI identifiers without primary-record evidence.
+The DOI publication library currently includes six author-recorded works; the README also contains a separate bookstore/reading-links list that is not counted as six additional DOI publications. The newest is **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting**, a book associated by the author with DOI `10.5281/zenodo.23689714`. The earlier `10.5281/zenodo.23689713` is an unresolved historical identifier, **not a seventh publication**. Consult `registry.json` for evidence status, and do not infer a relationship between the two DOI identifiers without primary-record evidence.
 
 ## Change-control checklist
 
@@ -48,4 +48,4 @@ Only update the GitHub About/description field when an authorized tool supportin
 
 The former GitHub Pages/HTML research website was preserved in branch [`archive/legacy-research-website-2026-10`](https://github.com/Joenasriani/joe-research-registry/tree/archive/legacy-research-website-2026-10) before cleanup. Website pages and the original HTML research note were removed from `main` to keep the main branch focused on the README publication library. **Do not restore or redeploy these pages unless explicitly asked.** This archive is preservation, not an endorsement or independent publication of those pages.
 
-The legacy sitemap, IndexNow verification key, and IndexNow workflow were subsequently removed from `main`. Any remaining assets or other supporting files must be inspected before deletion. Never delete unique research content without preserving a recoverable copy.
+The legacy sitemap, IndexNow verification key, workflow, issue template and CSS were removed from `main`. The four-file repository tree was committed and verified on 28 October 2026. Do not reintroduce website infrastructure without an explicit request. Never delete unique research content without preserving a recoverable copy.
