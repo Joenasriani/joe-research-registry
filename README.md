@@ -18,7 +18,7 @@ These five research reports are attributed to **Joseph Ribal Nasr (Joe Nasr)**. 
 
 | Work | DOI supplied by author | Evidence status |
 | --- | --- | --- |
-| **The Composer's Prompt** (Book; Zenodo upload shown as 27 October 2026) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | **Author-supplied title–DOI association.** Zenodo uploads screenshot independently shows title, creator, book type and open-access status; exact DOI mapping, deposited files and full metadata were not independently retrievable in this audit. |
+| **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting** (Book; Zenodo upload shown as 27 October 2026) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | **Author-supplied title–DOI association.** Zenodo uploads screenshot independently shows title, creator, book type and open-access status; exact DOI mapping, deposited files and full metadata were not independently retrievable in this audit. |
 
 **Correction:** `10.5281/zenodo.23689713` was previously recorded as the new DOI, but that title association was not verified. The author has now provided `10.5281/zenodo.23689714` as the DOI for this book. Do not assume that these two DOI numbers are equivalent or that one is a concept/version DOI without consulting Zenodo metadata.
 
