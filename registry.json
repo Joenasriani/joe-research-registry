@@ -1,293 +1,23 @@
 {
-  "collection": "Joe Nasr Research Registry",
+  "collection": "Joe Nasr — Publication and DOI Library",
+  "purpose": "README-first listing of publication titles, DOI records, books and reading links; not a website",
   "author": {
     "name": "Joe Nasr",
-    "alternate_names": [
-      "Joe Ribal Nasr",
-      "Joseph Ribal Nasr",
-      "J. Nasr"
-    ],
-    "canonical_identity": "https://joe-nasr-signals.vercel.app/",
-    "author_record": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/author/joe-nasr.html",
-    "primary_identity": "Creative Director | Digital Experiences | Interactive Prototyping",
-    "technical_focus": [
-      "XR",
-      "AI",
-      "Interactive Systems"
-    ],
-    "github": "https://github.com/Joenasriani",
-    "quest_identity": "https://linktr.ee/questrequestvr"
+    "also_known_as": "Joseph Ribal Nasr",
+    "orcid": "https://orcid.org/0009-0004-5698-9097"
   },
-  "updated": "2026-10-28",
-  "method": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/method.html",
-  "collections": [
-    {
-      "id": "quest-immersive-research",
-      "title": "Joe Nasr Quest & Immersive Systems Research",
-      "url": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/quest-research.html",
-      "description": "Technical research spanning Meta Quest engineering, XR/VR, mixed reality, spatial computing, sensory augmentation, olfactory interfaces, simulation, wearable systems, VR neuroscience, HCI and immersive perception.",
-      "audiences": [
-        "Meta Quest engineers",
-        "XR developers",
-        "VR developers",
-        "tech builders",
-        "spatial computing developers",
-        "creative technologists",
-        "HCI researchers",
-        "simulation developers",
-        "robotics and sensing experimenters",
-        "VR researchers",
-        "technical educators",
-        "prototypers",
-        "VR enthusiasts",
-        "AI builders where the project has direct AI relevance"
-      ],
-      "topics": [
-        "Meta Quest engineering",
-        "XR development",
-        "VR development",
-        "mixed reality",
-        "spatial computing",
-        "human-computer interaction",
-        "sensory augmentation",
-        "thermal imaging",
-        "ultraviolet imaging",
-        "olfactory XR",
-        "OpenXR simulation",
-        "wearable computing",
-        "VR neuroscience",
-        "immersive perception",
-        "scientific visualization",
-        "technical prototyping"
-      ],
-      "projects": [
-        {
-          "id": "quest-xsa",
-          "title": "Quest-XSA: Thermal & UV Sensory Augmentation for Meta Quest",
-          "status": "technical research and design study",
-          "primary_field": "mixed reality engineering / sensory augmentation",
-          "specialisms": [
-            "Meta Quest development",
-            "external sensor integration",
-            "thermal imaging",
-            "ultraviolet imaging",
-            "spatial computing",
-            "multimodal XR",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "Meta Quest thermal camera integration",
-            "Meta Quest UV camera integration",
-            "thermal imaging in mixed reality",
-            "sensory augmentation XR",
-            "external USB sensors on Meta Quest",
-            "mixed-reality sensor overlays"
-          ],
-          "research_url": "https://joenasriani.github.io/quest-xsa/research.html",
-          "interactive_url": "https://joenasriani.github.io/quest-xsa/",
-          "repository": "https://github.com/Joenasriani/quest-xsa",
-          "reported_publication_doi": "10.5281/zenodo.23538919",
-          "reported_publication_url": "https://zenodo.org/records/23538919",
-          "doi_verification": "user-confirmed; live Zenodo record unverified"
-        },
-        {
-          "id": "quest-mfts",
-          "title": "Quest-MFTS: Multi-Function Tactical Simulation System for Meta Quest",
-          "status": "systems concept and feasibility study",
-          "primary_field": "XR simulation systems / multimodal human-machine interfaces",
-          "specialisms": [
-            "Meta Quest simulation engineering",
-            "OpenXR",
-            "gaze interaction",
-            "speech interfaces",
-            "haptics",
-            "HOTAS integration",
-            "mixed-reality cockpit interfaces"
-          ],
-          "field_terms": [
-            "Meta Quest simulation engineering",
-            "OpenXR simulation interface",
-            "multimodal VR cockpit",
-            "gaze voice haptics integration",
-            "HOTAS VR integration",
-            "immersive human-machine interface"
-          ],
-          "research_url": "https://joenasriani.github.io/quest-mfts/research.html",
-          "interactive_url": "https://joenasriani.github.io/quest-mfts/",
-          "repository": "https://github.com/Joenasriani/quest-mfts",
-          "reported_publication_doi": "10.5281/zenodo.23552640",
-          "reported_publication_url": "https://zenodo.org/records/23552640",
-          "doi_verification": "user-confirmed; live Zenodo record unverified"
-        },
-        {
-          "id": "quest-4d",
-          "title": "Quest-4D: Simulating Hyperspace — 4D Perception in VR",
-          "status": "interactive research explainer and visualization study",
-          "primary_field": "scientific visualization / interactive mathematics / spatial reasoning",
-          "specialisms": [
-            "four-dimensional geometry",
-            "tesseract visualization",
-            "higher-dimensional projection",
-            "VR and XR education",
-            "immersive learning",
-            "visual reasoning",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "4D tesseract visualization",
-            "four-dimensional geometry interactive visualization",
-            "higher-dimensional projection",
-            "VR spatial reasoning",
-            "immersive mathematics education",
-            "4D rotation visualization"
-          ],
-          "research_url": "https://joenasriani.github.io/quest-4d/research.html",
-          "interactive_url": "https://joenasriani.github.io/quest-4d/",
-          "repository": "https://github.com/Joenasriani/quest-4d"
-        },
-        {
-          "id": "quest-eagleeye",
-          "title": "Project EagleEye: Low-Cost Mixed-Reality Situational Awareness Research",
-          "status": "technical research and experimental systems study",
-          "primary_field": "mixed-reality systems integration / wearable spatial computing",
-          "specialisms": [
-            "Meta Quest engineering",
-            "thermal imaging",
-            "LoRa",
-            "Meshtastic",
-            "wearable sensing",
-            "gaze interaction",
-            "multimodal interfaces",
-            "human-computer interaction"
-          ],
-          "field_terms": [
-            "Meta Quest thermal imaging",
-            "mixed-reality thermal camera",
-            "Meta Quest LoRa integration",
-            "Meshtastic mixed reality",
-            "wearable spatial computing",
-            "gaze-driven XR interface"
-          ],
-          "research_url": "https://joenasriani.github.io/quest-eagleeye-project/research.html",
-          "interactive_url": "https://joenasriani.github.io/quest-eagleeye-project/",
-          "repository": "https://github.com/Joenasriani/quest-eagleeye-project"
-        },
-        {
-          "id": "aura-olfactory-xr",
-          "title": "AURA: Olfactory XR Interface for Quest-Class Headsets",
-          "status": "technical research and prototype-design study",
-          "primary_field": "olfactory XR / wearable multimodal interfaces",
-          "specialisms": [
-            "olfactory HCI",
-            "multisensory VR",
-            "wearable scent interfaces",
-            "BLE control",
-            "embedded systems",
-            "active scent evacuation",
-            "Quest-class prototyping"
-          ],
-          "field_terms": [
-            "olfactory XR",
-            "VR scent interface",
-            "mixed reality olfactory interface",
-            "Quest olfactory interface",
-            "wearable scent display",
-            "multisensory VR",
-            "olfactory HCI"
-          ],
-          "research_url": "https://joenasriani.github.io/olfac-channels/",
-          "interactive_url": null,
-          "repository": "https://github.com/Joenasriani/olfac-channels"
-        },
-        {
-          "id": "vr-and-the-brain",
-          "title": "VR/AR Effects on the Human Brain — Neuroscience Evidence Review",
-          "status": "independent narrative evidence review",
-          "primary_field": "VR/AR neuroscience / human-computer interaction",
-          "specialisms": [
-            "virtual reality and brain health",
-            "neuroplasticity",
-            "cognition",
-            "presence",
-            "cybersickness",
-            "neurorehabilitation",
-            "immersive technology safety"
-          ],
-          "field_terms": [
-            "virtual reality effects on the brain",
-            "VR neuroscience",
-            "VR brain health",
-            "virtual reality neuroplasticity",
-            "VR cognitive effects",
-            "VR neurorehabilitation",
-            "cybersickness brain effects",
-            "immersive technology neuroscience"
-          ],
-          "research_url": "https://joenasriani.github.io/vr-and-the-brain/",
-          "interactive_url": null,
-          "repository": "https://github.com/Joenasriani/vr-and-the-brain"
-        },
-        {
-          "id": "vr-ket",
-          "title": "VR Immersion vs Ketamine Dissociation — Evidence Note",
-          "status": "independent narrative evidence note",
-          "primary_field": "immersive perception / dissociation / VR neuroscience",
-          "specialisms": [
-            "virtual reality presence",
-            "embodiment",
-            "dissociation",
-            "ketamine-associated altered perception",
-            "human-computer interaction",
-            "evidence boundaries"
-          ],
-          "field_terms": [
-            "VR dissociation",
-            "virtual reality presence",
-            "VR embodiment",
-            "ketamine dissociation",
-            "altered states of consciousness",
-            "immersive perception"
-          ],
-          "research_url": "https://joenasriani.github.io/vr-ket/",
-          "interactive_url": null,
-          "repository": "https://github.com/Joenasriani/vr-ket"
-        }
-      ]
-    }
-  ],
-  "entries": [
-    {
-      "id": "001",
-      "title": "Pre Institutional Human Order",
-      "status": "working research question",
-      "first_recorded": "2026-09-10",
-      "question": "If government and every other deliberately designed institution of collective order are removed from the model, what forms of human coordination would still arise from interaction itself?",
-      "distinctive_move": "Remove the broader layer of deliberately constructed institutional order before asking what remains and what forms first.",
-      "search_context": [
-        "order without government",
-        "society without government",
-        "social order without central authority",
-        "spontaneous order",
-        "stateless societies",
-        "emergent social coordination",
-        "self governance",
-        "informal institutions",
-        "political anthropology",
-        "self organization"
-      ],
-      "direct_questions": [
-        "Can social order exist without government?",
-        "What creates social order without central authority?",
-        "Is a stateless society the same as an institutionless society?",
-        "What does Pre Institutional Human Order mean?",
-        "How is this different from spontaneous order?"
-      ],
-      "url": "https://github.com/Joenasriani/joe-research-registry/blob/archive/legacy-research-website-2026-10/notes/001-pre-institutional-human-order.html"
-    }
-  ],
+  "primary_index": "README.md",
+  "maintenance_guide": "REPOSITORY_GUIDE.md",
+  "citation_guide": "CITATION.md",
+  "legacy_material_archive": "https://github.com/Joenasriani/joe-research-registry/tree/archive/legacy-research-website-2026-10",
+  "researcher_profiles": {
+    "orcid": "https://orcid.org/0009-0004-5698-9097",
+    "google_scholar": "https://scholar.google.com/citations?user=V_8fZGQAAAAJ",
+    "publications_website": "https://joe-nasr-publications.vercel.app/"
+  },
   "doi_publication_register": {
     "source": "ChatGPT research DOI registrar, 2026-10-23",
-    "verification_note": "DOI-to-title mappings recorded from user conversation and prior ChatGPT history. Zenodo public metadata could not be independently accessed; publication claims and version details require verification. DOI does not indicate peer review.",
+    "verification_note": "Six author-recorded DOI works; specific evidence status is attached to each record. Independent live Zenodo metadata not comprehensively rechecked. DOI does not establish peer review.",
     "records": [
       {
         "id": "icf-ai",
@@ -369,5 +99,37 @@
       }
     ],
     "last_registry_review": "2026-10-28"
-  }
+  },
+  "bookstore": {
+    "name": "Reasoning & Logic",
+    "url": "https://reasoning-and-logic.vercel.app/",
+    "note": "Separate reading links; not additional verified DOI publications",
+    "links": [
+      {
+        "title": "Mamdani: From Zero to Hero",
+        "url": "https://mamdani-from-zero-to-hero.vercel.app/"
+      },
+      {
+        "title": "Generative Music Systems",
+        "url": "https://generative-music-systems.vercel.app/"
+      },
+      {
+        "title": "Dorking: The Art of Search Intelligence",
+        "url": "https://dorking-mu.vercel.app/"
+      },
+      {
+        "title": "The Structure of Life",
+        "url": "https://structure-of-life-book.vercel.app/"
+      },
+      {
+        "title": "ICF-AI",
+        "url": "https://icf-ai.vercel.app/"
+      },
+      {
+        "title": "Manipulation: The Fool & The Wise",
+        "url": "https://manipulation-book-theta.vercel.app/"
+      }
+    ]
+  },
+  "last_structural_review": "2026-10-28"
 }
