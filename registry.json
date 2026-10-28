@@ -331,6 +331,22 @@
         "doi_url": "https://doi.org/10.5281/zenodo.23622202",
         "record_url": "https://zenodo.org/records/23622202",
         "verification": "Previously recorded as verified on 2026-10-24 in README; not reverified during 2026-10-28 synchronization"
+      },
+      {
+        "id": "the-composers-prompt",
+        "title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
+        "doi": "10.5281/zenodo.23689714",
+        "doi_url": "https://doi.org/10.5281/zenodo.23689714",
+        "record_url": "https://zenodo.org/records/23689714",
+        "reported_on": "2026-10-28",
+        "resource_type": "Book",
+        "creator_as_shown": "Nasr, Joe",
+        "uploaded_on_as_shown": "2026-10-27",
+        "status": "AUTHOR_SUPPLIED_DOI_AND_REVISED_TITLE_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
+        "evidence": "User-supplied DOI plus screenshot of Zenodo uploads listing; public DOI record not independently fetched",
+        "files_verified": false,
+        "title_source": "Author-reported revised Zenodo title, 2026-10-28",
+        "verification": "Author-provided DOI and revised title; external metadata not independently checked"
       }
     ],
     "pending_verification": [
@@ -350,21 +366,6 @@
         "candidate_resource_type": "Book",
         "screenshot_evidence": "User-provided screenshot of Zenodo My uploads, 2026-10-28: open-access Book, The Composer's Prompt, Nasr, Joe, uploaded 2026-10-27; six uploads shown.",
         "doi_title_link_verified": false
-      },
-      {
-        "id": "the-composers-prompt",
-        "title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
-        "doi": "10.5281/zenodo.23689714",
-        "doi_url": "https://doi.org/10.5281/zenodo.23689714",
-        "record_url": "https://zenodo.org/records/23689714",
-        "reported_on": "2026-10-28",
-        "resource_type": "Book",
-        "creator_as_shown": "Nasr, Joe",
-        "uploaded_on_as_shown": "2026-10-27",
-        "status": "AUTHOR_SUPPLIED_DOI_AND_REVISED_TITLE_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
-        "evidence": "User-supplied DOI plus screenshot of Zenodo uploads listing; public DOI record not independently fetched",
-        "files_verified": false,
-        "title_source": "Author-reported revised Zenodo title, 2026-10-28"
       }
     ],
     "last_registry_review": "2026-10-28"
