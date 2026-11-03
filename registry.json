@@ -72,11 +72,16 @@
         "resource_type": "Book",
         "creator_as_shown": "Nasr, Joe",
         "uploaded_on_as_shown": "2026-10-27",
-        "status": "AUTHOR_SUPPLIED_DOI_AND_REVISED_TITLE_PENDING_INDEPENDENT_ZENODO_VERIFICATION",
-        "evidence": "User-supplied DOI plus screenshot of Zenodo uploads listing; public DOI record not independently fetched",
+        "status": "AUTHOR_REPORTED_CORRECTED_FILE_REPLACEMENT_LIVE_ZENODO_UNVERIFIED",
+        "evidence": "Author screenshots show original and corrected PDFs in Zenodo record edit/preview and subsequent author confirmation of removal of old PDF; DOI retained as reported. Independent live record and file checksum not checked.",
         "files_verified": false,
         "title_source": "Author-reported revised Zenodo title, 2026-10-28",
-        "verification": "Author-provided DOI and revised title; external metadata not independently checked"
+        "verification": "Record title and DOI supported by author-provided screenshots; corrected PDF in GitHub verified by blob SHA-1; public Zenodo file state not independently verified",
+        "repository": "https://github.com/Joenasriani/thecomposersprompt",
+        "interactive_companion": "https://thecomposersprompt-lab.vercel.app/",
+        "canonical_pdf_repository_path": "book/The_Composers_Prompt_Joe_Nasr.pdf",
+        "canonical_pdf_git_blob_sha1": "8a94b66dfe6aa2f4a42c2ddb9925269b117652b7",
+        "last_author_update": "2026-11-03"
       }
     ],
     "pending_verification": [
@@ -98,7 +103,7 @@
         "doi_title_link_verified": false
       }
     ],
-    "last_registry_review": "2026-10-28"
+    "last_registry_review": "2026-11-03"
   },
   "bookstore": {
     "name": "Reasoning & Logic",
