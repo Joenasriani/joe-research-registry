@@ -13,7 +13,7 @@ These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI is 
 | Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls | [10.5281/zenodo.23552640](https://doi.org/10.5281/zenodo.23552640) | [Zenodo 23552640](https://zenodo.org/records/23552640) |
 | MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Zenodo 23592679](https://zenodo.org/records/23592679) |
 | Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface | [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202) | [Zenodo 23622202](https://zenodo.org/records/23622202) |
-| The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting (Book) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | [Zenodo 23689714](https://zenodo.org/records/23689714) |
+| The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting (Book) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | [Zenodo 23689714](https://zenodo.org/records/23689714) · [Book repository](https://github.com/Joenasriani/thecomposersprompt) · [Interactive companion](https://thecomposersprompt-lab.vercel.app/) |
 
 ## Researcher profiles and publication websites
 
@@ -27,6 +27,8 @@ These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. Each DOI is 
 ORCID synchronization has not been independently verified; do not infer that these works are or are not currently listed on the ORCID profile. The Zenodo username is user-confirmed; a specific public Zenodo user-profile URL has not been independently verified.
 
 ## Publication and attribution notes
+
+For *The Composer’s Prompt*, the author reported replacing the original PDF with the corrected `The_Composers_Prompt_Joe_Nasr.pdf` on 3 November 2026 while retaining DOI `10.5281/zenodo.23689714`. The replacement was shown in the Zenodo editing/preview workflow, but the final live record and downloaded PDF checksum have not been independently reverified. This is a **single corrected book listing**, not a new DOI publication. Its separately hosted interactive companion is linked above.
 
 The first four title–DOI mappings were recorded in Joe Nasr's research DOI register on **October 23, 2026**. The fifth, Tongue as Trackpad, was verified against its public Zenodo record on **October 24, 2026**. Quest-XSA's Zenodo record was previously checked through the public API; current metadata for the remaining earlier records has not been independently reverified in this README update. Follow each DOI or Zenodo link for the record's authoritative publication metadata, including date, version, license, and document.
 
