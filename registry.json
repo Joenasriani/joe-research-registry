@@ -17,7 +17,7 @@
   },
   "doi_publication_register": {
     "source": "ChatGPT research DOI registrar, 2026-10-23",
-    "verification_note": "Six author-recorded DOI works; specific evidence status is attached to each record. Independent live Zenodo metadata not comprehensively rechecked. DOI does not establish peer review.",
+    "verification_note": "Six records preserved. Composer's Prompt Book and DOI confirmed by 2026-11-06 Zenodo screenshots; full binary verification and other five DOI live metadata are not comprehensively rechecked.",
     "records": [
       {
         "id": "icf-ai",
@@ -72,16 +72,19 @@
         "resource_type": "Book",
         "creator_as_shown": "Nasr, Joe",
         "uploaded_on_as_shown": "2026-10-27",
-        "status": "AUTHOR_REPORTED_CORRECTED_FILE_REPLACEMENT_LIVE_ZENODO_UNVERIFIED",
-        "evidence": "Author screenshots show original and corrected PDFs in Zenodo record edit/preview and subsequent author confirmation of removal of old PDF; DOI retained as reported. Independent live record and file checksum not checked.",
+        "status": "PUBLISHED_VERIFIED_BY_AUTHOR_SCREENSHOT_2026_11_06",
+        "evidence": "2026-11-06 screenshots of public Zenodo record show Book, 2026, version 1.0.0, creator Nasr, Joe, license All rights reserved, and displayed 159-page PDF. Uploaded PDF binary/checksum and Zenodo API not independently rechecked.",
         "files_verified": false,
         "title_source": "Author-reported revised Zenodo title, 2026-10-28",
-        "verification": "Record title and DOI supported by author-provided screenshots; corrected PDF in GitHub verified by blob SHA-1; public Zenodo file state not independently verified",
+        "verification": "Public record and DOI verified by author screenshot on 2026-11-06; exact downloadable bytes and date of first publication not independently rechecked",
         "repository": "https://github.com/Joenasriani/thecomposersprompt",
         "interactive_companion": "https://thecomposersprompt-lab.vercel.app/",
         "canonical_pdf_repository_path": "book/The_Composers_Prompt_Joe_Nasr.pdf",
         "canonical_pdf_git_blob_sha1": "8a94b66dfe6aa2f4a42c2ddb9925269b117652b7",
-        "last_author_update": "2026-11-03"
+        "last_author_update": "2026-11-06",
+        "version": "1.0.0",
+        "concept_doi": "10.5281/zenodo.23689713",
+        "concept_doi_relation": "all_versions_concept_doi_shown_by_Zenodo_UI"
       }
     ],
     "pending_verification": [
@@ -90,20 +93,20 @@
         "doi_url": "https://doi.org/10.5281/zenodo.23689713",
         "record_url": "https://zenodo.org/records/23689713",
         "reported_on": "2026-10-28",
-        "status": "SUPERSEDED_AS_REPORTED_DOI_UNRESOLVED",
+        "status": "RESOLVED_AS_CONCEPT_DOI_BY_2026_11_06_ZENODO_SCREENSHOT",
         "title": null,
         "creator": null,
         "publication_type": null,
-        "version": null,
+        "version": "concept/all versions",
         "files_verified": false,
-        "notes": "Originally reported on 28 October 2026; subsequently user provided 10.5281/zenodo.23689714 for The Composer's Prompt. Relationship between these identifiers unverified.",
+        "notes": "Zenodo public record UI explicitly labels 10.5281/zenodo.23689713 as cite-all-versions DOI for version 10.5281/zenodo.23689714. It is not a seventh publication.",
         "candidate_title": "The Composer's Prompt",
         "candidate_resource_type": "Book",
         "screenshot_evidence": "User-provided screenshot of Zenodo My uploads, 2026-10-28: open-access Book, The Composer's Prompt, Nasr, Joe, uploaded 2026-10-27; six uploads shown.",
-        "doi_title_link_verified": false
+        "doi_title_link_verified": true
       }
     ],
-    "last_registry_review": "2026-11-03"
+    "last_registry_review": "2026-11-06"
   },
   "bookstore": {
     "name": "Reasoning & Logic",
@@ -136,5 +139,13 @@
       }
     ]
   },
-  "last_structural_review": "2026-10-28"
+  "last_structural_review": "2026-10-28",
+  "platform_status_2026_11_06": {
+    "zenodo_composers_prompt": "PUBLISHED_VERIFIED_BY_AUTHOR_SCREENSHOT",
+    "orcid": "ID_RECORDED_CURRENT_WORKS_NOT_RECHECKED",
+    "google_scholar": "PROFILE_LINK_RECORDED_LIVE_NOT_RECHECKED",
+    "harvard_dataverse": "EXTERNAL_STATUS_CONFLICT_UNRESOLVED",
+    "researchgate": "ACCOUNT_APPROVED_PUBLIC_BOOK_RECORD_NOT_VERIFIED_UPLOAD_ERROR_TEMPORARY_ACCESS_RESTRICTION",
+    "google_books": "PARTNER_ACCOUNT_PRELIMINARY_REVIEW_PENDING_PUBLIC_LISTING_NOT_VERIFIED"
+  }
 }
