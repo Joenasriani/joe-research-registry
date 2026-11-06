@@ -19,7 +19,7 @@
   },
   "doi_publication_register": {
     "source": "ChatGPT research DOI registrar, 2026-10-23",
-    "verification_note": "Six distinct Zenodo works. Composer's Prompt version DOI 23689714 and concept DOI 23689713 refer to the same work. Publication types and verification history are separate from current platform distribution.",
+    "verification_note": "All six unique Zenodo records live retrieved HTTP 200 on 2026-11-06. Live API types verified. Concept DOI 23689713 is all-versions identifier of version 23689714, not an extra publication.",
     "records": [
       {
         "id": "icf-ai",
@@ -28,7 +28,10 @@
         "record_url": "https://zenodo.org/records/23504055",
         "repository": "https://github.com/Joenasriani/icf-ai",
         "verification": "user-confirmed mapping; live Zenodo metadata unverified",
-        "doi_url": "https://doi.org/10.5281/zenodo.23504055"
+        "doi_url": "https://doi.org/10.5281/zenodo.23504055",
+        "resource_type": "Preprint",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       },
       {
         "id": "quest-xsa",
@@ -37,7 +40,10 @@
         "record_url": "https://zenodo.org/records/23538919",
         "repository": "https://github.com/Joenasriani/quest-xsa",
         "verification": "user-confirmed mapping; live Zenodo metadata unverified",
-        "doi_url": "https://doi.org/10.5281/zenodo.23538919"
+        "doi_url": "https://doi.org/10.5281/zenodo.23538919",
+        "resource_type": "Report",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       },
       {
         "id": "quest-mfts",
@@ -46,15 +52,21 @@
         "record_url": "https://zenodo.org/records/23552640",
         "repository": "https://github.com/Joenasriani/quest-mfts",
         "verification": "user-confirmed mapping; live Zenodo metadata unverified",
-        "doi_url": "https://doi.org/10.5281/zenodo.23552640"
+        "doi_url": "https://doi.org/10.5281/zenodo.23552640",
+        "resource_type": "Report",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       },
       {
         "id": "mpi-air",
-        "title": "MPI-AIR – Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art",
+        "title": "Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art",
         "doi": "10.5281/zenodo.23592679",
         "record_url": "https://zenodo.org/records/23592679",
         "verification": "recovered ChatGPT mapping; live Zenodo metadata unverified",
-        "doi_url": "https://doi.org/10.5281/zenodo.23592679"
+        "doi_url": "https://doi.org/10.5281/zenodo.23592679",
+        "resource_type": "Working paper",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       },
       {
         "id": "tongue-as-trackpad",
@@ -62,11 +74,14 @@
         "doi": "10.5281/zenodo.23622202",
         "doi_url": "https://doi.org/10.5281/zenodo.23622202",
         "record_url": "https://zenodo.org/records/23622202",
-        "verification": "Previously recorded as verified on 2026-10-24 in README; not reverified during 2026-10-28 synchronization"
+        "verification": "Previously recorded as verified on 2026-10-24 in README; not reverified during 2026-10-28 synchronization",
+        "resource_type": "Report",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       },
       {
         "id": "the-composers-prompt",
-        "title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
+        "title": "The Composer's Prompt",
         "doi": "10.5281/zenodo.23689714",
         "doi_url": "https://doi.org/10.5281/zenodo.23689714",
         "record_url": "https://zenodo.org/records/23689714",
@@ -74,11 +89,11 @@
         "resource_type": "Book",
         "creator_as_shown": "Nasr, Joe",
         "uploaded_on_as_shown": "2026-10-27",
-        "status": "PUBLISHED_VERIFIED_BY_AUTHOR_SCREENSHOT_2026_11_06",
+        "status": "PUBLISHED_LIVE_API_VERIFIED_2026_11_06",
         "evidence": "2026-11-06 screenshots of public Zenodo record show Book, 2026, version 1.0.0, creator Nasr, Joe, license All rights reserved, and displayed 159-page PDF. Uploaded PDF binary/checksum and Zenodo API not independently rechecked.",
         "files_verified": false,
         "title_source": "Author-reported revised Zenodo title, 2026-10-28",
-        "verification": "Public record and DOI verified by author screenshot on 2026-11-06; exact downloadable bytes and date of first publication not independently rechecked",
+        "verification": "Live Zenodo API HTTP 200 on 2026-11-06 confirmed published open Book, v1.0.0, creator Nasr, Joe, version and concept DOIs; book binary checksum not independently compared",
         "repository": "https://github.com/Joenasriani/thecomposersprompt",
         "interactive_companion": "https://thecomposersprompt-lab.vercel.app/",
         "canonical_pdf_repository_path": "book/The_Composers_Prompt_Joe_Nasr.pdf",
@@ -86,7 +101,10 @@
         "last_author_update": "2026-11-06",
         "version": "1.0.0",
         "concept_doi": "10.5281/zenodo.23689713",
-        "concept_doi_relation": "all_versions_concept_doi_shown_by_Zenodo_UI"
+        "concept_doi_relation": "all_versions_concept_doi_shown_by_Zenodo_UI",
+        "descriptive_subtitle": "Music Theory and Harmony for Computational Music Prompting",
+        "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
+        "live_verified_on": "2026-11-06"
       }
     ],
     "last_registry_review": "2026-11-06"
@@ -126,11 +144,19 @@
   "platform_status": {
     "as_of": "2026-11-06",
     "zenodo": {
-      "status": "SIX_PUBLISHED_WORKS",
+      "status": "SIX_PUBLISHED_LIVE_API_VERIFIED_2026_11_06",
       "count": 6,
       "book_version_doi": "10.5281/zenodo.23689714",
       "book_concept_doi": "10.5281/zenodo.23689713",
-      "book_binary_checksum_rechecked": false
+      "book_binary_checksum_rechecked": false,
+      "canonical_types": {
+        "icf-ai": "Preprint",
+        "quest-xsa": "Report",
+        "quest-mfts": "Report",
+        "mpi-air": "Working paper",
+        "tongue-as-trackpad": "Report",
+        "the-composers-prompt": "Book"
+      }
     },
     "harvard_dataverse": {
       "companion": {
@@ -141,35 +167,46 @@
         "license_reported": "CC BY 4.0",
         "metadata_revision_submitted_for_review": "2026-11-03",
         "revision_outcome": "NOT_RECHECKED",
-        "fresh_doi_resolution": "UNAVAILABLE"
+        "fresh_doi_resolution": "LIVE_OFFICIAL_DATASET_API_HTTP_200_2026_11_06",
+        "status": "PUBLISHED_LIVE_DATAVERSE_API_VERIFIED",
+        "dataset_id": 14381133,
+        "latest_version": "1.1",
+        "latest_version_state": "RELEASED",
+        "last_released_at_utc": "2026-11-04T16:03:54Z",
+        "metadata_revision_outcome": "RELEASED"
       },
       "separate_book_record": {
         "doi": "10.7910/DVN/ZCZ0NA",
         "historical_state": "CREATED_THEN_UNPUBLISHED_OR_IN_REVIEW",
-        "present_state": "UNRESOLVED",
-        "note": "Not visible in My Data on 2026-11-03; deletion notice could not be linked to this record. No claim of publication, deletion or ongoing review."
+        "present_state": "NOT_PUBLICLY_ACCESSIBLE_AT_CHECKED_URL_UNDERLYING_STATE_UNKNOWN",
+        "note": "Not visible in My Data on 2026-11-03; deletion notice could not be linked to this record. No claim of publication, deletion or ongoing review.",
+        "public_url_status": "HTTP_404_2026_11_06"
       }
     },
     "orcid": {
-      "status": "SIX_WORKS_OBSERVED_2026_10_31",
-      "outstanding": "WORK_TYPE_METADATA_RECONCILIATION"
+      "status": "SIX_UNIQUE_DOI_WORKS_LIVE_API_VERIFIED_2026_11_06",
+      "duplicate_doi": "10.5281/zenodo.23504055",
+      "duplicate_details": "two entries one preprint one report",
+      "canonical_zenodo_type": "Preprint",
+      "action": "No deletion without put-code investigation and authorization"
     },
     "google_scholar": {
       "status": "TWELVE_ENTRIES_OBSERVED",
       "doi_associated": 6,
       "older_non_doi": 6,
-      "live_recheck": "NOT_DONE"
+      "live_recheck": "BLOCKED_ANTI_AUTOMATION_2026_11_06"
     },
     "researchgate": {
       "status": "ACCOUNT_APPROVAL_REPORTED",
       "primary_email_state": "PERSONAL_GMAIL_REPORTED_PRIMARY",
       "book_publication": "NOT_VERIFIED",
-      "failed_upload": "HISTORICAL_ERROR_NOT_PUBLICATION"
+      "failed_upload": "HISTORICAL_ERROR_NOT_PUBLICATION",
+      "public_access": "HTTP_403_2026_11_06_NO_PUBLICATION_INFERENCE"
     },
     "google_play_books": {
       "status": "TWO_PARTNER_CENTER_ITEMS_REPORTED",
-      "public_storefront": "NOT_VERIFIED",
-      "account_review_outcome": "NOT_VERIFIED"
+      "public_storefront": "NOT_LIVE_VERIFIED_2026_11_06",
+      "account_review_outcome": "NOT_LIVE_VERIFIED"
     }
   }
 }
