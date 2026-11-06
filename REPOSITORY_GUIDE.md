@@ -30,7 +30,7 @@ The `main` branch intentionally contains only `README.md`, `REPOSITORY_GUIDE.md`
 
 ## Current library example
 
-The DOI publication library currently includes six author-recorded works; the README also contains a separate bookstore/reading-links list that is not counted as six additional DOI publications. The newest is **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting**, a book associated by the author with DOI `10.5281/zenodo.23689714`. The earlier `10.5281/zenodo.23689713` is an unresolved historical identifier, **not a seventh publication**. Consult `registry.json` for evidence status, and do not infer a relationship between the two DOI identifiers without primary-record evidence.
+The DOI publication library currently includes six author-recorded works; the README also contains a separate bookstore/reading-links list that is not counted as six additional DOI publications. The newest is **The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting**, a book associated by the author with DOI `10.5281/zenodo.23689714`. Zenodo's public record screenshot of 6 November 2026 identifies `10.5281/zenodo.23689713` as the **concept/all-versions DOI** for version `10.5281/zenodo.23689714`, **not a seventh publication**. The version-specific DOI is the appropriate citation for the displayed v1.0.0 book. The downloaded binary checksum and API metadata have not been independently checked. Consult `registry.json` for individual evidence states.
 
 ## Change-control checklist
 
