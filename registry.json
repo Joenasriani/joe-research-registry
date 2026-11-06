@@ -13,11 +13,13 @@
   "researcher_profiles": {
     "orcid": "https://orcid.org/0009-0004-5698-9097",
     "google_scholar": "https://scholar.google.com/citations?user=V_8fZGQAAAAJ",
-    "publications_website": "https://joe-nasr-publications.vercel.app/"
+    "publications_website": "https://joe-nasr-publications.vercel.app/",
+    "harvard_dataverse_companion_doi": "https://doi.org/10.7910/DVN/STHUVV",
+    "researchgate": "account approved in prior audit; public profile URL not verified"
   },
   "doi_publication_register": {
     "source": "ChatGPT research DOI registrar, 2026-10-23",
-    "verification_note": "Six records preserved. Composer's Prompt Book and DOI confirmed by 2026-11-06 Zenodo screenshots; full binary verification and other five DOI live metadata are not comprehensively rechecked.",
+    "verification_note": "Six distinct Zenodo works. Composer's Prompt version DOI 23689714 and concept DOI 23689713 refer to the same work. Publication types and verification history are separate from current platform distribution.",
     "records": [
       {
         "id": "icf-ai",
@@ -87,25 +89,6 @@
         "concept_doi_relation": "all_versions_concept_doi_shown_by_Zenodo_UI"
       }
     ],
-    "pending_verification": [
-      {
-        "doi": "10.5281/zenodo.23689713",
-        "doi_url": "https://doi.org/10.5281/zenodo.23689713",
-        "record_url": "https://zenodo.org/records/23689713",
-        "reported_on": "2026-10-28",
-        "status": "RESOLVED_AS_CONCEPT_DOI_BY_2026_11_06_ZENODO_SCREENSHOT",
-        "title": null,
-        "creator": null,
-        "publication_type": null,
-        "version": "concept/all versions",
-        "files_verified": false,
-        "notes": "Zenodo public record UI explicitly labels 10.5281/zenodo.23689713 as cite-all-versions DOI for version 10.5281/zenodo.23689714. It is not a seventh publication.",
-        "candidate_title": "The Composer's Prompt",
-        "candidate_resource_type": "Book",
-        "screenshot_evidence": "User-provided screenshot of Zenodo My uploads, 2026-10-28: open-access Book, The Composer's Prompt, Nasr, Joe, uploaded 2026-10-27; six uploads shown.",
-        "doi_title_link_verified": true
-      }
-    ],
     "last_registry_review": "2026-11-06"
   },
   "bookstore": {
@@ -139,13 +122,54 @@
       }
     ]
   },
-  "last_structural_review": "2026-10-28",
-  "platform_status_2026_11_06": {
-    "zenodo_composers_prompt": "PUBLISHED_VERIFIED_BY_AUTHOR_SCREENSHOT",
-    "orcid": "ID_RECORDED_CURRENT_WORKS_NOT_RECHECKED",
-    "google_scholar": "PROFILE_LINK_RECORDED_LIVE_NOT_RECHECKED",
-    "harvard_dataverse": "EXTERNAL_STATUS_CONFLICT_UNRESOLVED",
-    "researchgate": "ACCOUNT_APPROVED_PUBLIC_BOOK_RECORD_NOT_VERIFIED_UPLOAD_ERROR_TEMPORARY_ACCESS_RESTRICTION",
-    "google_books": "PARTNER_ACCOUNT_PRELIMINARY_REVIEW_PENDING_PUBLIC_LISTING_NOT_VERIFIED"
+  "last_structural_review": "2026-11-06",
+  "platform_status": {
+    "as_of": "2026-11-06",
+    "zenodo": {
+      "status": "SIX_PUBLISHED_WORKS",
+      "count": 6,
+      "book_version_doi": "10.5281/zenodo.23689714",
+      "book_concept_doi": "10.5281/zenodo.23689713",
+      "book_binary_checksum_rechecked": false
+    },
+    "harvard_dataverse": {
+      "companion": {
+        "doi": "10.7910/DVN/STHUVV",
+        "published_at": "2026-11-01",
+        "evidence": "prior authenticated audit",
+        "files_reported": 8,
+        "license_reported": "CC BY 4.0",
+        "metadata_revision_submitted_for_review": "2026-11-03",
+        "revision_outcome": "NOT_RECHECKED",
+        "fresh_doi_resolution": "UNAVAILABLE"
+      },
+      "separate_book_record": {
+        "doi": "10.7910/DVN/ZCZ0NA",
+        "historical_state": "CREATED_THEN_UNPUBLISHED_OR_IN_REVIEW",
+        "present_state": "UNRESOLVED",
+        "note": "Not visible in My Data on 2026-11-03; deletion notice could not be linked to this record. No claim of publication, deletion or ongoing review."
+      }
+    },
+    "orcid": {
+      "status": "SIX_WORKS_OBSERVED_2026_10_31",
+      "outstanding": "WORK_TYPE_METADATA_RECONCILIATION"
+    },
+    "google_scholar": {
+      "status": "TWELVE_ENTRIES_OBSERVED",
+      "doi_associated": 6,
+      "older_non_doi": 6,
+      "live_recheck": "NOT_DONE"
+    },
+    "researchgate": {
+      "status": "ACCOUNT_APPROVAL_REPORTED",
+      "primary_email_state": "PERSONAL_GMAIL_REPORTED_PRIMARY",
+      "book_publication": "NOT_VERIFIED",
+      "failed_upload": "HISTORICAL_ERROR_NOT_PUBLICATION"
+    },
+    "google_play_books": {
+      "status": "TWO_PARTNER_CENTER_ITEMS_REPORTED",
+      "public_storefront": "NOT_VERIFIED",
+      "account_review_outcome": "NOT_VERIFIED"
+    }
   }
 }
