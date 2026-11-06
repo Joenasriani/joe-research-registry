@@ -6,7 +6,7 @@ This repository is an index of publications, not a separately peer-reviewed rese
 
 For a work deposited in Zenodo, cite its **individual Zenodo record** rather than this registry. Check the authoritative record for its exact title, creator, publication date, version, resource type and DOI before formatting a reference. The README and registry.json are discovery indexes, not replacements for the deposited file or record metadata.
 
-For *The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting*, the publicly displayed Zenodo Book record was confirmed by author-supplied screenshots on 6 November 2026 as version **1.0.0**, version DOI **10.5281/zenodo.23689714**. Zenodo identifies **10.5281/zenodo.23689713** as the **concept/all-versions DOI of the same work**, not an unresolved or additional seventh publication. For the specified version, cite the version DOI; use the concept DOI when deliberately referring to all versions. Exact downloaded bytes/checksum have not been independently reverified.
+For *The Composer's Prompt* (the exact title in the live Zenodo API; the longer phrase 'Music Theory and Harmony for Computational Music Prompting' appears in its descriptive text), the public Book record was confirmed via the official Zenodo API with HTTP 200 on 6 November 2026 as version **1.0.0**, version DOI **10.5281/zenodo.23689714**. Zenodo identifies **10.5281/zenodo.23689713** as the **concept/all-versions DOI of the same work**, not an unresolved or additional seventh publication. For the specified version, cite the version DOI; use the concept DOI when deliberately referring to all versions. Exact downloaded bytes/checksum have not been independently reverified.
 
 ## Archived material
 
