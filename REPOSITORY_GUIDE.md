@@ -8,6 +8,10 @@ The primary user-facing deliverable is the GitHub repository's `README.md`, whic
 
 The `main` branch intentionally contains only `README.md`, `REPOSITORY_GUIDE.md`, `registry.json`, and `CITATION.md`. The former HTML website and its supporting files were moved out of `main` and remain recoverable on the archive branch. Their historical presence does **not** authorize creating, redesigning, deploying, or promoting a website. Do not refer to GitHub Pages as the main library or offer a “preview” URL for the README. The correct library URL is the GitHub repository itself.
 
+## Current-state governance
+
+Keep only the latest established research inventory and exact per-platform publication status in the active README and structured registry. **Replace superseded warnings and resolved pending entries**, rather than accumulating contradictory logs. Preserve unique historical context in Git history. A publication, account approval, pending metadata revision, unsuccessful upload, and unverified storefront listing must never be conflated. If a current live source cannot be read, retain the last dated verified finding with a precise freshness qualification; do not reverse completed achievements. Verify which exact record is affected before claiming review, deletion, or publication. In particular, Harvard Dataverse DOI `10.7910/DVN/STHUVV` (published companion dataset) and `10.7910/DVN/ZCZ0NA` (separate historical book record) are **not interchangeable**. The Zenodo concept DOI `10.5281/zenodo.23689713` is the all-versions identifier for book version DOI `10.5281/zenodo.23689714`, not a seventh work.
+
 ## What to do when maintaining this repository
 
 1. **Read this file first**, then `README.md`, `registry.json`, and any relevant publication source before editing.
