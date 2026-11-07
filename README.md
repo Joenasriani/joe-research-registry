@@ -13,7 +13,7 @@ These six works are attributed to **Joseph Ribal Nasr (Joe Nasr)**. All six Zeno
 | Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls | [10.5281/zenodo.23552640](https://doi.org/10.5281/zenodo.23552640) | [Zenodo 23552640](https://zenodo.org/records/23552640) |
 | MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art | [10.5281/zenodo.23592679](https://doi.org/10.5281/zenodo.23592679) | [Zenodo 23592679](https://zenodo.org/records/23592679) |
 | Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface | [10.5281/zenodo.23622202](https://doi.org/10.5281/zenodo.23622202) | [Zenodo 23622202](https://zenodo.org/records/23622202) |
-| The Composer's Prompt (Book; full descriptive subtitle in record description) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | [Zenodo 23689714](https://zenodo.org/records/23689714) · [Book repository](https://github.com/Joenasriani/thecomposersprompt) · [Interactive companion](https://thecomposersprompt-lab.vercel.app/) |
+| The Composer's Prompt (Book; full descriptive subtitle in record description) | [10.5281/zenodo.23689714](https://doi.org/10.5281/zenodo.23689714) | [Zenodo 23689714](https://zenodo.org/records/23689714) · [ResearchGate full-text Book](https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting) · [Book repository](https://github.com/Joenasriani/thecomposersprompt) · [Interactive companion](https://thecomposersprompt-lab.vercel.app/) |
 
 ## Current holdings and distribution status – live API checked 6 November 2026
 
