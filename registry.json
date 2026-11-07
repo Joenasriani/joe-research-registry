@@ -15,7 +15,8 @@
     "google_scholar": "https://scholar.google.com/citations?user=V_8fZGQAAAAJ",
     "publications_website": "https://joe-nasr-publications.vercel.app/",
     "harvard_dataverse_companion_doi": "https://doi.org/10.7910/DVN/STHUVV",
-    "researchgate": "account approved in prior audit; public profile URL not verified"
+    "researchgate": "https://www.researchgate.net/profile/Joseph-Nasr-9",
+    "researchgate_book": "https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting"
   },
   "doi_publication_register": {
     "source": "ChatGPT research DOI registrar, 2026-10-23",
@@ -104,7 +105,20 @@
         "concept_doi_relation": "all_versions_concept_doi_shown_by_Zenodo_UI",
         "descriptive_subtitle": "Music Theory and Harmony for Computational Music Prompting",
         "publication_status": "PUBLISHED_LIVE_ZENODO_API_VERIFIED_2026_11_06",
-        "live_verified_on": "2026-11-06"
+        "live_verified_on": "2026-11-06",
+        "researchgate": {
+          "url": "https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting",
+          "publication_id": "417607181",
+          "status": "PUBLIC_BOOK_FULL_TEXT_VERIFIED_2026_11_07",
+          "publication_month": "2026-10",
+          "upload_date": "2026-11-07",
+          "displayed_author": "Joseph Nasr",
+          "doi": "10.5281/zenodo.23689714",
+          "publisher": "Zenodo",
+          "pdf_available": true,
+          "pdf_checksum_match": "NOT_VERIFIED",
+          "affiliation": "NOT_RECHECKED"
+        }
       }
     ],
     "last_registry_review": "2026-11-06"
@@ -142,7 +156,7 @@
   },
   "last_structural_review": "2026-11-06",
   "platform_status": {
-    "as_of": "2026-11-06",
+    "as_of": "2026-11-07",
     "zenodo": {
       "status": "SIX_PUBLISHED_LIVE_API_VERIFIED_2026_11_06",
       "count": 6,
@@ -197,11 +211,19 @@
       "live_recheck": "BLOCKED_ANTI_AUTOMATION_2026_11_06"
     },
     "researchgate": {
-      "status": "ACCOUNT_APPROVAL_REPORTED",
-      "primary_email_state": "PERSONAL_GMAIL_REPORTED_PRIMARY",
-      "book_publication": "NOT_VERIFIED",
-      "failed_upload": "HISTORICAL_ERROR_NOT_PUBLICATION",
-      "public_access": "HTTP_403_2026_11_06_NO_PUBLICATION_INFERENCE"
+      "status": "PUBLIC_BOOK_AND_FULL_TEXT_VERIFIED_2026_11_07",
+      "book_publication": "VERIFIED",
+      "publication_id": "417607181",
+      "url": "https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting",
+      "author_profile": "https://www.researchgate.net/profile/Joseph-Nasr-9",
+      "displayed_author": "Joseph Nasr",
+      "publication_month": "2026-10",
+      "uploaded_on": "2026-11-07",
+      "doi": "10.5281/zenodo.23689714",
+      "pdf_available": true,
+      "pdf_hash_compared": false,
+      "affiliation_verified": false,
+      "prior_403_and_upload_error": "HISTORICAL_SUPERSEDED_BY_PUBLIC_PAGE_VERIFICATION"
     },
     "google_play_books": {
       "status": "TWO_PARTNER_CENTER_ITEMS_REPORTED",
