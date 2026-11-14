@@ -118,6 +118,20 @@
           "pdf_available": true,
           "pdf_checksum_match": "NOT_VERIFIED",
           "affiliation": "NOT_RECHECKED"
+        },
+        "google_play_books": {
+          "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
+          "volume_id": "w3QmEgAAQBAJ",
+          "relationship": "additional_storefront_distribution_of_existing_book",
+          "status": "PUBLIC_STOREFRONT_DISPLAY_USER_SCREENSHOTS_2026_11_14",
+          "evidence_date": "2026-11-14",
+          "displayed_title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
+          "displayed_author": "Joe Nasr",
+          "displayed_pages": 159,
+          "displayed_ebook_price_usd": 22,
+          "independent_url_retrieval": "UNVERIFIED_FETCH_FAILED_2026_11_14",
+          "second_partner_center_item": "NOT_PUBLICLY_VERIFIED",
+          "note": "Google Play Books screenshots supplied by author; this is not a new Zenodo DOI publication or proof of review status."
         }
       }
     ],
@@ -156,7 +170,7 @@
   },
   "last_structural_review": "2026-11-06",
   "platform_status": {
-    "as_of": "2026-11-07",
+    "as_of": "2026-11-14",
     "zenodo": {
       "status": "SIX_PUBLISHED_LIVE_API_VERIFIED_2026_11_06",
       "count": 6,
@@ -226,8 +240,13 @@
       "prior_403_and_upload_error": "HISTORICAL_SUPERSEDED_BY_PUBLIC_PAGE_VERIFICATION"
     },
     "google_play_books": {
-      "status": "TWO_PARTNER_CENTER_ITEMS_REPORTED",
-      "public_storefront": "NOT_LIVE_VERIFIED_2026_11_06",
+      "status": "ONE_PUBLIC_LISTING_USER_SCREENSHOT_CONFIRMED_2026_11_14",
+      "public_storefront": "THE_COMPOSERS_PROMPT_SHOWN_IN_GOOGLE_PLAY_BOOKS_SCREENSHOTS",
+      "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
+      "volume_id": "w3QmEgAAQBAJ",
+      "evidence_date": "2026-11-14",
+      "independent_url_retrieval": "NOT_VERIFIED_2026_11_14",
+      "second_reported_partner_center_item": "PUBLIC_STATUS_UNKNOWN",
       "account_review_outcome": "NOT_LIVE_VERIFIED"
     }
   }
