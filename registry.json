@@ -152,7 +152,21 @@
       },
       {
         "title": "Dorking: The Art of Search Intelligence",
-        "url": "https://dorking-mu.vercel.app/"
+        "url": "https://dorking-mu.vercel.app/",
+        "google_play_books": {
+          "url": "https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ",
+          "volume_id": "cy4nEgAAQBAJ",
+          "listing_title": "Dorking: The Art of Search Intelligence",
+          "displayed_author_name": "J. Nasr",
+          "displayed_contributor_name": "Joe Nasr",
+          "format": "Ebook",
+          "pages": 66,
+          "displayed_price_usd": 4.99,
+          "status": "USER_SCREENSHOT_PUBLIC_LISTING_OBSERVED_2026_11_15",
+          "independent_live_retrieval": "UNVERIFIED",
+          "relation": "additional_distribution_of_existing_reading_link",
+          "doi": "NOT_ESTABLISHED"
+        }
       },
       {
         "title": "The Structure of Life",
