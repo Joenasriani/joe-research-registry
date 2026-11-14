@@ -54,13 +54,13 @@ A Zenodo DOI identifies a research record; it does not itself establish peer rev
 
 ## Books and reading websites
 
-The following six titles were recorded in the [Reasoning & Logic bookstore](https://reasoning-and-logic.vercel.app/). These are separately listed reading links, not automatically additional DOI publications. Current site availability has not been rechecked.
+The following six titles were recorded in the [Reasoning & Logic bookstore](https://reasoning-and-logic.vercel.app/). These are separately listed reading links, not automatically additional DOI publications. Current site availability has not been rechecked. The *Dorking* Google Play Books listing (volume ID `cy4nEgAAQBAJ`) is supported by an author-provided storefront screenshot dated 15 November 2026 showing **J. Nasr** and **Joe Nasr**, a 66-page ebook, and a displayed price of US$4.99. Independent storefront retrieval was unsuccessful; availability and price may change.
 
 | Book or publication title | Read online | Bookstore |
 | --- | --- | --- |
 | Mamdani: From Zero to Hero | [Open book](https://mamdani-from-zero-to-hero.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
 | Generative Music Systems | [Open book](https://generative-music-systems.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
-| Dorking: The Art of Search Intelligence | [Open book](https://dorking-mu.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
+| Dorking: The Art of Search Intelligence | [Open book](https://dorking-mu.vercel.app/) · [Google Play Books ebook](https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
 | The Structure of Life | [Open book](https://structure-of-life-book.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
 | ICF-AI | [Open publication](https://icf-ai.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
 | Manipulation: The Fool & The Wise | [Open book](https://manipulation-book-theta.vercel.app/) | [Reasoning & Logic](https://reasoning-and-logic.vercel.app/) |
