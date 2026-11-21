@@ -40,7 +40,7 @@ The entries below are **current known records**, not a chronological backlog. St
 | Google Scholar | Joe Nasr – twelve previously observed entries | [Google Scholar profile](https://scholar.google.com/citations?user=V_8fZGQAAAAJ) |
 | Harvard Dataverse | Published companion dataset `STHUVV` | [Dataverse dataset DOI](https://doi.org/10.7910/DVN/STHUVV) |
 | ResearchGate | Joseph Nasr – verified author profile and Book record | [Author profile](https://www.researchgate.net/profile/Joseph-Nasr-9) · [Book listing](https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting) |
-| Research & Publications | Joe Nasr research catalogue | [Publications website](https://joe-nasr-publications.vercel.app/) |
+| Research & Publications | Joe Nasr research catalogue | [Publications website](https://joe-nasr-signals.vercel.app/publications/) |
 
 ## Publication and attribution notes
 

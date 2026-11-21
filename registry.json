@@ -13,7 +13,7 @@
   "researcher_profiles": {
     "orcid": "https://orcid.org/0009-0004-5698-9097",
     "google_scholar": "https://scholar.google.com/citations?user=V_8fZGQAAAAJ",
-    "publications_website": "https://joe-nasr-publications.vercel.app/",
+    "publications_website": "https://joe-nasr-signals.vercel.app/publications/",
     "harvard_dataverse_companion_doi": "https://doi.org/10.7910/DVN/STHUVV",
     "researchgate": "https://www.researchgate.net/profile/Joseph-Nasr-9",
     "researchgate_book": "https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting"
